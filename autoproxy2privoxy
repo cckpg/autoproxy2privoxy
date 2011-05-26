@@ -16,7 +16,7 @@ re_regex_a='^/\^https\?:\\/\\/\[\^\\/\]\+([^/]+)/$'
 
 COMMENT=1
 PROXY_TYPE=${PROXY_TYPE:-socks5}  # valid values are: http, socks4, socks4a, socks5
-PROXY_ADDR=${PROXY_ADDR-:127.0.0.1:7127}  # forward to this address
+PROXY_ADDR=${PROXY_ADDR:-127.0.0.1:7127}  # forward to this address
 
 PROXY_FOR=()
 NOPROXY_FOR=()

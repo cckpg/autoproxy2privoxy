@@ -1,4 +1,4 @@
-{+forward-override{forward-socks5 :127.0.0.1:7127 .}}
+{+forward-override{forward-socks5 127.0.0.1:7127 .}}
 # Checksum: u5ob2C9osfAGde1LfjPERQ
 # Expires: 6h
 # Last Modified: Wed, 25 May 2011 17:02:52 +0800
