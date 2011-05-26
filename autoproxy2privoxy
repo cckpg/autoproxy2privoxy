@@ -1,0 +1,133 @@
+#!/bin/bash
+# Convert AutoProxy rules to Privoxy forward rules.
+
+# Spec: https://autoproxy.org/zh-CN/Rules
+# Regular Expression                      # AutoProxy Rule Example            Privoxy Pattern
+re_domain='^\|\|([^/]+)/?$'               # ||example.com                     .example.com
+re_start='^\|http(s?)://([^/\]+)([^\]*)'  # |https://ssl.example.com/foo*bar  ssl.example.com:443/foo.*bar
+re_regex='^/(.*)/$'                       # /^https?:\/\/[^\/]+example\.com/  .example.com (not exactly; good enough?)
+re_negate='^@@([^@].*)'                   # @@||example.com                   .example.com (NO PROXY)
+re_comment='^!(.*)'                       # !Foo Bar                          #Foo Bar (comment)
+re_keyword='^(/)?([^/\[][^/\]*)([^\]*)'   # .example.com/foo*bar              .example.com:80/foo.*bar, :80/.*\.example\.com/foo.*bar (keyword filtering is HTTP only)
+
+# Regular expression to shell expansion is lossy;
+# this is the only regex used in practice, so far.
+re_regex_a='^/\^https\?:\\/\\/\[\^\\/\]\+([^/]+)/$'
+
+COMMENT=1
+PROXY_TYPE=${PROXY_TYPE:-socks5}  # valid values are: http, socks4, socks4a, socks5
+PROXY_ADDR=${PROXY_ADDR-:127.0.0.1:7127}  # forward to this address
+
+PROXY_FOR=()
+NOPROXY_FOR=()
+
+atprxy2prvxy()
+{
+  local file=$1 line pattern
+  while read -r line; do
+    _atprxy2prvxy "$line"
+  done < "${file}"
+  if [ "${PROXY_TYPE^^}" == HTTP ]; then
+    local forward_proxy="forward ${PROXY_ADDR}"
+  else
+    local forward_proxy="forward-${PROXY_TYPE,,} ${PROXY_ADDR} ." # assuming no parent HTTP proxy
+  fi
+  echo "{+forward-override{$forward_proxy}}"
+  for pattern in "${PROXY_FOR[@]}"; do
+    echo "$pattern"
+  done
+  echo "{+forward-override{forward .}}"
+  for pattern in "${NOPROXY_FOR[@]}"; do
+    echo "$pattern"
+  done
+}
+
+# the main translater
+_atprxy2prvxy()
+{
+  local s=$1 results=() noproxy=$2
+  if [[ "$s" =~ $re_domain ]]; then
+    results+=(".${BASH_REMATCH[1]}")
+  elif [[ "$s" =~ $re_start ]]; then
+    local https=${BASH_REMATCH[1]} port
+    if [ "$https" ]; then
+      port=443
+    else
+      port=80
+    fi
+    local one=${BASH_REMATCH[2]}
+    local two=${BASH_REMATCH[3]}
+    two=$(_sh2regex "$two") # must be in path
+    results+=(":$port/.*$(_sh2regex "$one")$two") # both in path
+    results+=("$one:$port$two") # one is domain
+  elif [[ "$s" =~ $re_regex ]]; then
+    if [[ "$s" =~ $re_regex_a ]]; then
+      results+=".${BASH_REMATCH[1]}"
+    else # "I don't understand this regex!"
+      local ans
+      echo ":: Unkown regular expression found:" >&2
+      echo "$s" >&2
+      echo ":: Please convert the above to a privoxy pattern:" >&2
+      read ans
+      results+=("${ans}") # XXX may translate to more than one rule.
+    fi
+  elif [[ "$s" =~ $re_negate ]]; then
+    _atprxy2prvxy "${BASH_REMATCH[1]}" 1
+  elif [[ "$s" =~ $re_comment ]] && [ "$COMMENT" ]; then
+    results+="#${BASH_REMATCH[1]}"
+  elif [[ "$s" =~ $re_keyword ]]; then
+    local port=80 # keyword filtering is HTTP only
+    local slash=${BASH_REMATCH[1]}
+    local one=${BASH_REMATCH[2]}
+    local two=${BASH_REMATCH[3]}
+    if [ "${slash}" ]; then # both must in path
+      one=$(_sh2regex "$one")
+      two=$(_sh2regex "$two")
+      results+=(":$port/.*/$one$two")
+    else
+      if [ "$two" ]; then # one can be in domain or path
+        two=$(_sh2regex "$two")
+        results+=(".${one#.}:$port$two") # one in domain
+        one=$(_sh2regex "$one")
+        results+=(":$port/.*$one$two") # both in path
+      else # no slashes at all
+        local _one
+        _one=${one#.}
+        _one=${_one%.}
+        results+=(".$_one.:$port") # in domain
+        one=$(_sh2regex "$one")
+        results+=(":$port/.*$one") # in path
+      fi
+    fi
+  fi
+  local r
+  for r in "${results[@]}"; do
+    _generate_privoxy_forward "$r" $noproxy
+  done
+}
+
+# * ? [a-z] => regex
+# seems only `*' is used?
+# `?' seems to be treated as a literal.
+_sh2regex()
+{
+  # Again, no backslash is used in practice.
+  # Casual non-exhaustive escaping >.>
+  sed 's/[{(^.$)}]/\\&/g;s/\*/.&/g' <<< "$1"
+}
+
+_generate_privoxy_forward()
+{
+  local pattern=$1 noproxy=$2
+  if [ "${noproxy}" ]; then
+    NOPROXY_FOR+=("${pattern}")
+  else
+    PROXY_FOR+=("${pattern}")
+  fi
+}
+
+echo "Generating Privoxy Forward Rules..." >&2
+echo "This may take a while..." >&2
+atprxy2prvxy "$1"
+
+# vim: ft=sh sw=2:
