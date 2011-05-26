@@ -4,10 +4,10 @@ AutoProxy2Privoxy
 Overview
 --------
 
-AutoProxy2Privoxy generates a list of privoxy forward rules from a set of
+AutoProxy2Privoxy generates a list of Privoxy forward rules from a set of
 AutoProxy rules.
 
-AutoProxy is an firefox addon that automatically determines which URLs are to
+AutoProxy is a firefox addon that automatically determines which URLs are to
 be requested through a proxy, according to a predefined list of rules.
 
 The AutoProxy2Pac program can produce a Proxy Auto-Config file out of the
@@ -17,8 +17,8 @@ Privoxy, with forward rules set up correctly, can be used as a Proxy Auto-Config
 replacement, with the benefit of being universal for any program that uses the
 proxy.
 
-Another advantage of using privoxy is that, when forwarding to a SOCKS4a/SOCKS5
-proxy, privoxy will request the DNS resolution to happen on the remote side.
+Another advantage of using Privoxy is that, when forwarding to a SOCKS4a/SOCKS5
+proxy, Privoxy will request the DNS resolution to happen on the remote side.
 This is beneficial for programs that do not support remote DNS resolution.
 
 Inspired by AutoProxy2Pac, powered by Privoxy, and motivated by GFW, here,
@@ -28,7 +28,7 @@ How to Build
 ------------
 
 AutoProxy2Privoxy is a BASH script and needs not be built. This section talks
-about how to build the privoxy forward rules from an AutoProxy ruleset.
+about how to build the Privoxy forward rules from an AutoProxy ruleset.
 
 The following example assumes a Linux environment. Also the famous gfwlist is
 used as the autoproxy ruleset input in the example below.
@@ -66,7 +66,7 @@ Finally, make sure that forward rules are not set in `/etc/privoxy/config`,
 which is the default, unless you know what you're doing.
 
 Privoxy should automatically pick up the new config. Now just point your program
-to privoxy, who will automatically determine whether to forward to SOCKS or not.
+to Privoxy, who will automatically determine whether to forward to SOCKS or not.
 
 License
 -------
@@ -79,5 +79,5 @@ Fork the idea, guys.
 Links
 -----
 
-[AutoProxy Rules](https://autoproxy.org/zh-CN/Rules)
-[Privoxy Patterns](http://www.privoxy.org/user-manual/actions-file.html#AF-PATTERNS)
+* [AutoProxy Rules](https://autoproxy.org/zh-CN/Rules)
+* [Privoxy Patterns](http://www.privoxy.org/user-manual/actions-file.html#AF-PATTERNS)
