@@ -66,7 +66,8 @@ Finally, make sure that forward rules are not set in `/etc/privoxy/config`,
 which is the default, unless you know what you're doing.
 
 Privoxy should automatically pick up the new config. Now just point your program
-to Privoxy, who will automatically determine whether to forward to SOCKS or not.
+to Privoxy (`localhost:8118` by default), who will automatically determine
+whether to forward to SOCKS or not.
 
 License
 -------
