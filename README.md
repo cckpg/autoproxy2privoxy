@@ -52,13 +52,13 @@ gfw.action:
 
     {+forward-override{forward-socks5 127.0.0.1:7127 .}}
 
-Then issue the following commands as root::
+Then issue the following commands as root:
 
     cp gfw.action /etc/privoxy/
     chown privoxy:privoxy /etc/privoxy/gfw.action
     chmod 660 /etc/privoxy/gfw.action
 
-Now edit `/etc/privoxy/config`, adding this line::
+Now edit `/etc/privoxy/config`, adding this line:
 
     actionsfile gfw.action
 

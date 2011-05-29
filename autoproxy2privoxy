@@ -5,10 +5,10 @@
 # Regular Expression                        # AutoProxy Rule Example            Privoxy Pattern
 re_domain='^\|\|([^/]+)/?$'                 # ||example.com                     .example.com
 re_start='^\|http(s?)://([^/\]+)([^\]*)'    # |https://ssl.example.com/foo*bar  ssl.example.com:443/foo.*bar
-re_regex='^/(.*)/$'                         # /^https?:\/\/[^\/]+example\.com/  .example.com (not exactly; good enough?)
+re_regex='^/(.*)/$'                         # /^https?:\/\/[^\/]+example\.com/  .*example.com
 re_negate='^@@([^@].*)'                     # @@||example.com                   .example.com (NO PROXY)
 re_comment='^!(.*)'                         # !Foo Bar                          #Foo Bar (comment)
-re_keyword='^(https?://|/)?([^/\]+)([^\]*)' # .example.com/foo*bar              *.example.com:80/foo.*bar, :80/.*\.example\.com/foo.*bar (keyword filtering is HTTP only)
+re_keyword='^(https?://|/)?([^/\]+)([^\]*)' # .example.com/foo*bar              .*.example.com:80/foo.*bar, :80/.*\.example\.com/foo.*bar (keyword filtering is HTTP only)
 
 # Regular expression to shell expansion is lossy;
 # this is the only regex used in practice, so far.
@@ -61,7 +61,8 @@ _atprxy2prvxy()
     results+=("$one:$port$two") # one is domain
   elif [[ "$s" =~ $re_regex ]]; then
     if [[ "$s" =~ $re_regex_a ]]; then
-      results+=".${BASH_REMATCH[1]}"
+      local one=$(_regex2sh "${BASH_REMATCH[1]}")
+      results+=(".*$one")
     else # "I don't understand this regex!"
       local ans
       echo ":: Unkown regular expression found:" >&2
@@ -73,7 +74,7 @@ _atprxy2prvxy()
   elif [[ "$s" =~ $re_negate ]]; then
     _atprxy2prvxy "${BASH_REMATCH[1]}" 1
   elif [[ "$s" =~ $re_comment ]] && [ "$COMMENT" ]; then
-    results+="#${BASH_REMATCH[1]}"
+    results+=("#${BASH_REMATCH[1]}")
   elif [[ "$s" =~ $re_keyword ]]; then
     local port=80 # keyword filtering is HTTP only
     local slash=${BASH_REMATCH[1]}
@@ -86,15 +87,18 @@ _atprxy2prvxy()
     elif [ "${slash}" ]; then # keyword pattern with a scheme
       _atprxy2prvxy "|$s"
       results+=(":$port/.*$(_sh2regex "$s")")
-    elif [ "$two" ]; then
+    else
+      local _one
+      # It seems for privoxy's domain pattern, "*" does NOT match "."
+      if [ "$two" ]; then
+        _one=".*${one}"
+      else
+        _one=".*${one}*."
+      fi
       two=$(_sh2regex "$two")
-      results+=("*${one}:$port$two") # one in domain
+      results+=("${_one}:$port$two") # one in domain
       one=$(_sh2regex "$one")
       results+=(":$port/.*$one$two") # both in path
-    else # no slashes at all
-      results+=("*$one*:$port") # in domain
-      one=$(_sh2regex "$one")
-      results+=(":$port/.*$one") # in path
     fi
   elif [ -n "${s// /}" ]; then
     echo ":: Exception: unknown rule detected: '${s}'" >&2
@@ -113,6 +117,14 @@ _sh2regex()
   # Again, no backslash is used in practice.
   # Casual non-exhaustive escaping >.>
   sed 's/[{(^.$)}]/\\&/g;s/\*/.&/g' <<< "$1"
+}
+
+# .* -> *  x? -> ?  . -> ?  \ ->
+_regex2sh()
+{
+  # In practice, \\ won't be in the URL regex.
+  # assuming really simple regex.
+  sed 's/\.\*/\*/g;s/\([^\]\)\(?\)/?/g;s/\([^\]\)\(\.\)/\1?/g;s/\\//g' <<< "$1"
 }
 
 _generate_privoxy_forward()
