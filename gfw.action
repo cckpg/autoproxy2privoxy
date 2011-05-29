@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: u5ob2C9osfAGde1LfjPERQ
+# Checksum: UQ29OTwOdNlTs8JOq8lmVw
 # Expires: 6h
-# Last Modified: Wed, 25 May 2011 17:02:52 +0800
+# Last Modified: Sat, 28 May 2011 18:39:01 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .0rz.tw.:80
@@ -22,7 +22,6 @@
 .173ng.com
 .17e.org.:80
 :80/.*\.17e\.org
-:80/.*17e\.org/
 17e.org:80/
 .1984bbs.com.:80
 :80/.*1984bbs\.com
@@ -56,6 +55,9 @@
 .4.gp.:80
 :80/.*4\.gp
 .4bluestones.biz
+.4shared.com.:80
+:80/.*\.4shared\.com
+4shared.com:80
 .5i01.com.:80
 :80/.*5i01\.com
 .taiwannation.50webs.com.:80
@@ -158,7 +160,6 @@
 :80/.*alliance\.org\.hk
 .allinfa.com.:80
 :80/.*\.allinfa\.com
-:80/.*allinfa\.com
 allinfa.com:80
 .allinfo.com
 .alternate-tools.com
@@ -191,7 +192,6 @@ allinfa.com:80
 .anthonycalzadilla.com
 .antiwave.net.:80
 :80/.*\.antiwave\.net
-:80/.*antiwave\.net
 antiwave.net:80
 .aolchannels.aol.com
 .video.aol.ca:80/video-detail
@@ -214,7 +214,6 @@ antiwave.net:80
 .archlinux.fr
 .arctosia.com.:80
 :80/.*\.arctosia\.com
-:80/.*arctosia\.com
 arctosia.com:80
 .areca-backup.org
 .asdfg.jp:80/dabr
@@ -273,7 +272,6 @@ arctosia.com:80
 .bbcchinese.com.:80
 :80/.*\.bbcchinese\.com
 .bbcchinese.com
-:80/.*bbc\.in
 bbc.in:80
 .bbg.gov.:80
 :80/.*\.bbg\.gov
@@ -315,7 +313,6 @@ bbc.in:80
 .billywr.com
 .bitsnoop.com.:80
 :80/.*\.bitsnoop\.com
-:80/.*bitsnoop\.com
 bitsnoop.com:80
 .bjzc.org.:80
 :80/.*bjzc\.org
@@ -351,7 +348,6 @@ bitsnoop.com:80
 :80/.*blogtd\.net
 .blogtd.org.:80
 :80/.*\.blogtd\.org
-:80/.*blogtd\.org
 blogtd.org:80
 .bloodshed.net
 .bloomberg.com*pid=20601087.:80
@@ -411,7 +407,6 @@ blogtd.org:80
 #--businesstimes
 .businesstimes.com.cn.:80
 :80/.*\.businesstimes\.com\.cn
-:80/.*businesstimes\.com\.cn
 businesstimes.com.cn:80
 .bugbeep.com.:80
 :80/.*bugbeep\.com
@@ -432,7 +427,6 @@ businesstimes.com.cn:80
 :80/.*\.calameo\.com/books
 .cn.calameo.com.:80
 :80/.*\.cn\.calameo\.com
-:80/.*cn\.calameo\.com
 cn.calameo.com:80
 .canadameet.com.:80
 :80/.*canadameet\.com
@@ -484,7 +478,6 @@ cn.calameo.com:80
 .chandoo.org
 .change.org.:80
 :80/.*\.change\.org
-:80/.*change\.org
 change.org:80
 .changp.com.:80
 :80/.*\.changp\.com
@@ -511,7 +504,6 @@ change.org:80
 .chinachannel.hk
 .chinadigitaltimes.net.:80
 :80/.*\.chinadigitaltimes\.net
-:80/.*chinadigitaltimes\.net
 chinadigitaltimes.net:80
 .chinaeweekly.com.:80
 :80/.*\.chinaeweekly\.com
@@ -852,7 +844,6 @@ chinadigitaltimes.net:80
 :80/.*\.emory\.edu
 .emule-ed2k.com.:80
 :80/.*\.emule-ed2k\.com
-:80/.*emule-ed2k\.com
 emule-ed2k.com:80
 .chinese.engadget.com.:80
 :80/.*chinese\.engadget\.com
@@ -946,10 +937,11 @@ emule-ed2k.com:80
 :80/.*\.fgmtv\.org
 .files2me.com.:80
 :80/.*\.files2me\.com
-:80/.*files2me\.com
 files2me.com:80
 .fileserve.com:80/file
 :80/.*\.fileserve\.com/file
+.filesonic.com:80/file
+:80/.*\.filesonic\.com/file
 .fillthesquare.org.:80
 :80/.*fillthesquare\.org
 .findbook.tw.:80
@@ -991,7 +983,6 @@ files2me.com:80
 :80/.*pioneer-worker\.forums-free\.com
 .foursquare.com.:80
 :80/.*foursquare\.com
-:80/.*4sq\.com
 4sq.com:80
 .fotop.net
 .video.foxbusiness.com.:80
@@ -1010,7 +1001,6 @@ files2me.com:80
 .franklc.com
 .freakshare.com.:80
 :80/.*\.freakshare\.com
-:80/.*freakshare\.com
 freakshare.com:80
 .free.fr:80/adsl
 :80/.*\.free\.fr/adsl
@@ -1058,7 +1048,6 @@ freakshare.com:80
 :80/.*friendfeed\.com
 .friendfeed-media.com:80/e99a4ebe2fb4c1985c2a58775eb4422961aa5a2e
 :80/.*friendfeed-media\.com/e99a4ebe2fb4c1985c2a58775eb4422961aa5a2e
-:80/.*ff\.im
 ff.im:80
 .fring.com.:80
 :80/.*\.fring\.com
@@ -1314,6 +1303,7 @@ ff.im:80
 .clemesha.org
 .www.cloudgirlfriend.com
 .rss.cnn.com
+.cocoawithlove.com
 .blog.controlspace.org
 #-D
 .www.dailygyan.com
@@ -1505,7 +1495,6 @@ ff.im:80
 .art.twgg.org
 .twivert.com
 #-U
-:80/.*ub0\.cc
 ub0.cc:80
 .jonny.ubuntu-tw.net
 .blog.umonkey.net
@@ -1760,9 +1749,7 @@ ub0.cc:80
 .google.*:80/search.*%E5%91%A8
 :80/.*\.google\..*/search.*%E5%91%A8
 #-------------Google.other-----
-:443/.*docs\.google\.com/
 docs.google.com:443/
-:443/.*groups\.google\.com/
 groups.google.com:443/
 .google.com:80/moderator
 :80/.*\.google\.com/moderator
@@ -1790,7 +1777,6 @@ groups.google.com:443/
 .sites.google.com.:80
 :80/.*sites\.google\.com
 .sites.google.com
-:443/.*talkgadget\.google\.com/
 talkgadget.google.com:443/
 .video.google.com.:80
 :80/.*video\.google\.com
@@ -1862,7 +1848,6 @@ talkgadget.google.com:443/
 .hjclub.info
 .hk-pub.com:80/forum
 :80/.*\.hk-pub\.com/forum
-:80/.*hk-pub\.com/forum
 hk-pub.com:80/forum
 .hk32168.com.:80
 :80/.*\.hk32168\.com
@@ -1954,6 +1939,7 @@ hk-pub.com:80/forum
 :80/.*\.idv\.tw
 .ied2k.net.:80
 :80/.*\.ied2k\.net
+.if-not-true-then-false.com
 .ifanr.com:80/857
 :80/.*\.ifanr\.com/857
 .ifcss.org.:80
@@ -1975,7 +1961,6 @@ hk-pub.com:80/forum
 .imagevenue.com
 .imdb.com.:80
 :80/.*\.imdb\.com
-:80/.*imdb\.com
 imdb.com:80
 .img.ly.:80
 :80/.*\.img\.ly
@@ -2026,7 +2011,6 @@ imdb.com:80
 :80/.*ithelp\.ithome\.com\.tw/question/10007094
 .itweet.net.:80
 :80/.*\.itweet\.net
-:80/.*itweet\.net
 itweet.net:80
 .iu45.com.:80
 :80/.*\.iu45\.com
@@ -2052,7 +2036,6 @@ itweet.net:80
 :80/.*jieshibaobao\.com
 .jimoparty.com.:80
 :80/.*\.jimoparty\.com
-:80/.*jimoparty\.com
 jimoparty.com:80
 .zhao.jinhai.de.:80
 :80/.*zhao\.jinhai\.de
@@ -2143,7 +2126,6 @@ jimoparty.com:80
 :80/.*laomiu\.com
 .laoyang.info.:80
 :80/.*\.laoyang\.info
-:80/.*laoyang\.info
 laoyang.info:80
 .laptoplockdown.com
 .latelinenews.com.:80
@@ -2253,7 +2235,6 @@ laoyang.info:80
 .longtermly.net
 .lookatgame.com.:80
 :80/.*\.lookatgame\.com
-:80/.*lookatgame\.com
 lookatgame.com:80
 .lookingglasstheatre.org
 .lookpic.com
@@ -2381,6 +2362,7 @@ lookatgame.com:80
 .mobileways.de
 .mobypicture.com.:80
 :80/.*\.mobypicture\.com
+moby.to:80
 .mondex.org
 .c1522.mooo.com.:80
 :80/.*c1522\.mooo\.com
@@ -2446,7 +2428,6 @@ lookatgame.com:80
 .namsisi.com
 .nanyangpost.com.:80
 :80/.*\.nanyangpost\.com
-:80/.*nanyangpost\.com
 nanyangpost.com:80
 .naveensrinivasan.com
 .navicat.com
@@ -2530,7 +2511,6 @@ nanyangpost.com:80
 :80/.*nintendium\.com
 .dayaarmongol.ning.com.:80
 :80/.*\.dayaarmongol\.ning\.com
-:80/.*dayaarmongol\.ning\.com
 dayaarmongol.ning.com:80
 .taiwanyes.ning.com.:80
 :80/.*taiwanyes\.ning\.com
@@ -2642,7 +2622,6 @@ dayaarmongol.ning.com:80
 .mash.to
 .www.owind.com.:80
 :80/.*www\.owind\.com
-:80/.*www\.oxid\.it
 www.oxid.it:80
 .ozchinese.com:80/bbs
 :80/.*\.ozchinese\.com/bbs
@@ -2816,11 +2795,9 @@ www.oxid.it:80
 .web.pts.org.tw.:80
 :80/.*web\.pts\.org\.tw
 #-------------Posterous-----
-:80/.*post\.ly
 post.ly:80
 .posterous.com.:80
 :80/.*\.posterous\.com
-:80/.*posterous\.com
 posterous.com:80
 .post.anyu.org
 .bralio.com
@@ -2869,6 +2846,7 @@ posterous.com:80
 :80/.*prozz\.net
 .psblog.name.:80
 :80/.*psblog\.name
+.psblog.name
 .psiphon.ca.:80
 :80/.*psiphon\.ca
 .ptt.cc.:80
@@ -2882,7 +2860,6 @@ posterous.com:80
 :80/.*pwned\.com
 .python.com.tw.:80
 :80/.*\.python\.com\.tw
-:80/.*python\.com\.tw
 python.com.tw:80
 .python.org*download.:80
 :80/.*python\.org.*download
@@ -2927,6 +2904,9 @@ python.com.tw:80
 .ranyunfei.com.:80
 :80/.*ranyunfei\.com
 .ranyunfei.com
+.rapidshare.com.:80
+:80/.*\.rapidshare\.com
+rapidshare.com:80
 .rapidshare1.com.:80
 :80/.*\.rapidshare1\.com
 .rapidshare8.com
@@ -2934,7 +2914,6 @@ python.com.tw:80
 :80/.*\.rapidsharedata\.com
 .rapidscan.me.:80
 :80/.*\.rapidscan\.me
-:80/.*rapidscan\.me
 rapidscan.me:80
 .rayfme.com:80/bbs
 :80/.*\.rayfme\.com/bbs
@@ -2975,7 +2954,6 @@ rapidscan.me:80
 .rfi.fr.:80
 :80/.*\.rfi\.fr
 .rfi.fr
-:80/.*rfi\.my/
 rfi.my:80/
 .rileyguide.com.:80
 :80/.*\.rileyguide\.com
@@ -3003,11 +2981,9 @@ rfi.my:80/
 .rssmeme.com
 .rthk.hk.:80
 :80/.*\.rthk\.hk
-:80/.*rthk\.hk
 rthk.hk:80
 .rthk.org.hk.:80
 :80/.*\.rthk\.org\.hk
-:80/.*rthk\.org\.hk
 rthk.org.hk:80
 .rti.org.tw.:80
 :80/.*rti\.org\.tw
@@ -3026,6 +3002,9 @@ rthk.org.hk:80
 .blog.s135.com:80/google_ssl
 :80/.*blog\.s135\.com/google_ssl
 .s1heng.com
+.sacom.hk.:80
+:80/.*sacom\.hk
+.sacom.hk
 .saiq.me.:80
 :80/.*\.saiq\.me
 .saiq.me
@@ -3158,7 +3137,6 @@ rthk.org.hk:80
 .skimtube.com
 .bbs.skykiwi.com.:80
 :80/.*bbs\.skykiwi\.com
-:80/.*www\.skype\.com/intl/
 www.skype.com:80/intl/
 .share.skype.com:80/sites/en/2008/10/skype_president_addresses_chin
 :80/.*share\.skype\.com/sites/en/2008/10/skype_president_addresses_chin
@@ -3224,15 +3202,12 @@ www.skype.com:80/intl/
 :80/.*\.spankwire\.com
 .spb.com:80/blackberry-software/tv/download
 :80/.*\.spb\.com/blackberry-software/tv/download
-:80/.*spb\.com/blackberry-software/tv/download
 spb.com:80/blackberry-software/tv/download
 .spb.com:80/pocketpc-software/tv/download
 :80/.*\.spb\.com/pocketpc-software/tv/download
-:80/.*spb\.com/pocketpc-software/tv/download
 spb.com:80/pocketpc-software/tv/download
 .spb.com:80/symbian-software/tv/download
 :80/.*\.spb\.com/symbian-software/tv/download
-:80/.*spb\.com/symbian-software/tv/download
 spb.com:80/symbian-software/tv/download
 .speedpluss.org.:80
 :80/.*\.speedpluss\.org
@@ -3370,7 +3345,6 @@ spb.com:80/symbian-software/tv/download
 :80/.*thevivekspot\.com
 .thisav.com.:80
 :80/.*\.thisav\.com
-:80/.*thisav\.com
 thisav.com:80
 .thkphoto.com.:80
 :80/.*thkphoto\.com
@@ -3469,7 +3443,6 @@ thisav.com:80
 .trustedbi.com
 .truth101.co.tv.:80
 :80/.*\.truth101\.co\.tv
-:80/.*truth101\.co\.tv
 truth101.co.tv:80
 .truthcn.com
 .truveo.com.:80
@@ -3598,7 +3571,6 @@ truth101.co.tv:80
 .tv.com.:80
 :80/.*\.tv\.com
 .www.tv.com
-:80/.*tv\.com
 tv.com:80
 .tv-intros.com
 .forum.tvb.com:80/
@@ -3637,9 +3609,7 @@ tv.com:80
 .tweetboner.biz
 .tweetdeck.com.:80
 :80/.*\.tweetdeck\.com
-:80/.*tweetdeck\.com
 tweetdeck.com:80
-:80/.*deck\.ly
 deck.ly:80
 .tweete.net
 .m.tweete.net.:80
@@ -3671,7 +3641,6 @@ deck.ly:80
 .twindexx.com
 .twifan.com.:80
 :80/.*\.twifan\.com
-:80/.*twifan\.com
 twifan.com:80
 .twiffo.com.:80
 :80/.*twiffo\.com
@@ -3698,7 +3667,6 @@ twifan.com:80
 .twitlonger.com.:80
 :80/.*\.twitlonger\.com
 .twitlonger.com
-:80/.*tl\.gd/
 tl.gd:80/
 .twitoaster.com.:80
 :80/.*twitoaster\.com
@@ -3727,9 +3695,7 @@ tl.gd:80/
 .twitvid.com
 .199.59.148.20.:80
 :80/.*199\.59\.148\.20
-:80/.*t\.co/
 t.co:80/
-:80/.*twt\.tl
 twt.tl:80
 .twitter.com.:80
 :80/.*\.twitter\.com
@@ -3767,7 +3733,6 @@ twt.tl:80
 .twstar.net
 .twtkr.com.:80
 :80/.*\.twtkr\.com
-:80/.*twtkr\.com
 twtkr.com:80
 .tycool.com.:80
 :80/.*\.tycool\.com
@@ -3812,7 +3777,6 @@ twtkr.com:80
 :80/.*\.srcf\.ucam\.org/salon/
 .humanities.uchicago.edu:80/faculty/ywang/hi
 :80/.*humanities\.uchicago\.edu/faculty/ywang/hi
-:80/.*udn\.com
 udn.com:80
 .udn.com.:80
 :80/.*\.udn\.com
@@ -3865,7 +3829,6 @@ udn.com:80
 .ustream.tv
 .uushare.com.:80
 :80/.*\.uushare\.com
-:80/.*uushare\.com
 uushare.com:80
 .uwants.com.:80
 :80/.*\.uwants\.com
@@ -3932,7 +3895,6 @@ uushare.com:80
 :80/.*waikeung\.org/php_wind
 .waiwaier.com.:80
 :80/.*\.waiwaier\.com
-:80/.*waiwaier\.com
 waiwaier.com:80
 .wallornot.org.:80
 :80/.*wallornot\.org
@@ -4112,6 +4074,8 @@ waiwaier.com:80
 :80/.*zh-sg\.wordpress\.com
 .zhenxiang.wordpress.com.:80
 :80/.*zhenxiang\.wordpress\.com
+.https::80//.*wordpress\.com
+:80/.*https://.*wordpress\.com
 #-||wordpress.com
 #-|http://wp.com/
 #-||android.wordpress.org
@@ -4130,7 +4094,6 @@ waiwaier.com:80
 :80/.*wretch\.cc
 .chinese.wsj.com:80/gb
 :80/.*\.chinese\.wsj\.com/gb
-:80/.*chinese\.wsj\.com/gb
 chinese.wsj.com:80/gb
 .wtfpeople.com.:80
 :80/.*\.wtfpeople\.com
@@ -4178,7 +4141,6 @@ chinese.wsj.com:80/gb
 :80/.*xiezhua\.com
 .xing.com.:80
 :80/.*\.xing\.com
-:80/.*xing\.com
 xing.com:80
 .xinmiao.com.hk.:80
 :80/.*\.xinmiao\.com\.hk
@@ -4214,6 +4176,8 @@ xing.com:80
 .xysblogs.org.:80
 :80/.*xysblogs\.org
 #--------------------------YY--------------------------
+.page.bid.yahoo.com.:80
+:80/.*page\.bid\.yahoo\.com
 .blogs.yahoo.co.jp.:80
 :80/.*blogs\.yahoo\.co\.jp
 .buy.yahoo.com.tw:80/gdsale
@@ -4318,7 +4282,6 @@ xing.com:80
 :80/.*topic\.youthwant\.com\.tw
 .youporn.com.:80
 :80/.*\.youporn\.com
-:80/.*youporn\.com
 youporn.com:80
 .youtu.be.:80
 :80/.*youtu\.be
@@ -4346,7 +4309,6 @@ youporn.com:80
 #--------------------------ZZ--------------------------
 .zannel.com
 .tap11.com
-:80/.*zaobao\.com/
 zaobao.com:80/
 .luntan.zaobao.com:80/
 :80/.*luntan\.zaobao\.com/
@@ -5193,9 +5155,7 @@ zaobao.com:80/
 .static.tumblr.com
 .www.typepad.com
 .static.typepad.com
-:80/.*wordpress\.com
 wordpress.com:80
-:443/.*wordpress\.com
 wordpress.com:443
 .files.wordpress.com
 .tax.nat.gov.tw
