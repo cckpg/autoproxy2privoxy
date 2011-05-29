@@ -4074,7 +4074,7 @@ waiwaier.com:80
 :80/.*zh-sg\.wordpress\.com
 .*zhenxiang.wordpress.com*.:80
 :80/.*zhenxiang\.wordpress\.com
-*wordpress.com:443
+.*wordpress.com:443
 :80/.*https://.*wordpress\.com
 #-||wordpress.com
 #-|http://wp.com/
