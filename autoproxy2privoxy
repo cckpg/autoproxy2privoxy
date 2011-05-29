@@ -58,7 +58,6 @@ _atprxy2prvxy()
     local one=${BASH_REMATCH[2]}
     local two=${BASH_REMATCH[3]}
     two=$(_sh2regex "$two") # must be in path
-    results+=(":$port/.*$(_sh2regex "$one")$two") # both in path
     results+=("$one:$port$two") # one is domain
   elif [[ "$s" =~ $re_regex ]]; then
     if [[ "$s" =~ $re_regex_a ]]; then
