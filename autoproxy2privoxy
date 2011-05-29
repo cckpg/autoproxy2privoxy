@@ -2,13 +2,13 @@
 # Convert AutoProxy rules to Privoxy forward rules.
 
 # Spec: https://autoproxy.org/zh-CN/Rules
-# Regular Expression                      # AutoProxy Rule Example            Privoxy Pattern
-re_domain='^\|\|([^/]+)/?$'               # ||example.com                     .example.com
-re_start='^\|http(s?)://([^/\]+)([^\]*)'  # |https://ssl.example.com/foo*bar  ssl.example.com:443/foo.*bar
-re_regex='^/(.*)/$'                       # /^https?:\/\/[^\/]+example\.com/  .example.com (not exactly; good enough?)
-re_negate='^@@([^@].*)'                   # @@||example.com                   .example.com (NO PROXY)
-re_comment='^!(.*)'                       # !Foo Bar                          #Foo Bar (comment)
-re_keyword='^(/)?([^/\]+)([^\]*)'         # .example.com/foo*bar              .example.com:80/foo.*bar, :80/.*\.example\.com/foo.*bar (keyword filtering is HTTP only)
+# Regular Expression                        # AutoProxy Rule Example            Privoxy Pattern
+re_domain='^\|\|([^/]+)/?$'                 # ||example.com                     .example.com
+re_start='^\|http(s?)://([^/\]+)([^\]*)'    # |https://ssl.example.com/foo*bar  ssl.example.com:443/foo.*bar
+re_regex='^/(.*)/$'                         # /^https?:\/\/[^\/]+example\.com/  .example.com (not exactly; good enough?)
+re_negate='^@@([^@].*)'                     # @@||example.com                   .example.com (NO PROXY)
+re_comment='^!(.*)'                         # !Foo Bar                          #Foo Bar (comment)
+re_keyword='^(https?://|/)?([^/\]+)([^\]*)' # .example.com/foo*bar              *.example.com:80/foo.*bar, :80/.*\.example\.com/foo.*bar (keyword filtering is HTTP only)
 
 # Regular expression to shell expansion is lossy;
 # this is the only regex used in practice, so far.
@@ -79,24 +79,22 @@ _atprxy2prvxy()
     local slash=${BASH_REMATCH[1]}
     local one=${BASH_REMATCH[2]}
     local two=${BASH_REMATCH[3]}
-    if [ "${slash}" ]; then # both must in path
+    if [ "${slash}" == / ]; then # both must in path
       one=$(_sh2regex "$one")
       two=$(_sh2regex "$two")
       results+=(":$port/.*/$one$two")
-    else
-      if [ "$two" ]; then # one can be in domain or path
-        two=$(_sh2regex "$two")
-        results+=(".${one#.}:$port$two") # one in domain
-        one=$(_sh2regex "$one")
-        results+=(":$port/.*$one$two") # both in path
-      else # no slashes at all
-        local _one
-        _one=${one#.}
-        _one=${_one%.}
-        results+=(".$_one.:$port") # in domain
-        one=$(_sh2regex "$one")
-        results+=(":$port/.*$one") # in path
-      fi
+    elif [ "${slash}" ]; then # keyword pattern with a scheme
+      _atprxy2prvxy "|$s"
+      results+=(":$port/.*$(_sh2regex "$s")")
+    elif [ "$two" ]; then
+      two=$(_sh2regex "$two")
+      results+=("*${one}:$port$two") # one in domain
+      one=$(_sh2regex "$one")
+      results+=(":$port/.*$one$two") # both in path
+    else # no slashes at all
+      results+=("*$one*:$port") # in domain
+      one=$(_sh2regex "$one")
+      results+=(":$port/.*$one") # in path
     fi
   elif [ -n "${s// /}" ]; then
     echo ":: Exception: unknown rule detected: '${s}'" >&2
