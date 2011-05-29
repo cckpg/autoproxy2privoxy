@@ -1526,8 +1526,8 @@ ub0.cc:80
 #-------------Google Search-----
 *.google.*:80/complete/search
 :80/.*\.google\..*/complete/search
-:80/.*/search?q=cache
-:80/.*/search%3Fq%3Dcache
+:80/(.*/)?search?q=cache
+:80/(.*/)?search%3Fq%3Dcache
 *%2Fsearch%3Fq%3Dcache*:80
 :80/.*%2Fsearch%3Fq%3Dcache
 *google*search*q=cache*:80
@@ -3261,7 +3261,7 @@ spb.com:80/symbian-software/tv/download
 :80/.*www\.supertweet\.net
 *support:80/youtube/bin/request\.py?contact_type=abuse&
 :80/.*support/youtube/bin/request\.py?contact_type=abuse&
-:80/.*/support/youtube/bin/static\.py?page=start\.cs&
+:80/(.*/)?support/youtube/bin/static\.py?page=start\.cs&
 .sweux.com
 .swift-tools.net
 .syncback.com
