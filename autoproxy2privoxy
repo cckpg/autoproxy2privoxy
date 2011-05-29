@@ -82,7 +82,7 @@ _atprxy2prvxy()
     if [ "${slash}" == / ]; then # both must in path
       one=$(_sh2regex "$one")
       two=$(_sh2regex "$two")
-      results+=(":$port/.*/$one$two")
+      results+=(":$port/(.*/)?$one$two")
     elif [ "${slash}" ]; then # keyword pattern with a scheme
       _atprxy2prvxy "|$s"
       results+=(":$port/.*$(_sh2regex "$s")")
