@@ -48,7 +48,7 @@ Privoxy supports all major operating systems.  Installation paths may vary from
 platform to platform. The following assumes a Linux environment.
 
 First, make sure the address and type of the target proxy is set correctly in
-gfw.action:
+[gfw.action](https://github.com/cckpg/autoproxy2privoxy/raw/master/gfw.action):
 
     {+forward-override{forward-socks5 127.0.0.1:7127 .}}
 
