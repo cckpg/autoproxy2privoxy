@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: UQ29OTwOdNlTs8JOq8lmVw
+# Checksum: w2TqbQDXV+hXct7DxJ7rgg
 # Expires: 6h
-# Last Modified: Sat, 28 May 2011 18:39:01 +0800
+# Last Modified: Mon, 30 May 2011 17:47:37 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -782,6 +782,8 @@ chinadigitaltimes.net:80
 .dtiblog.com
 .*dtiserv2.com*.:80
 :80/.*dtiserv2\.com
+.*.duckload.com:80/download
+:80/.*\.duckload\.com/download
 .duckmylife.com
 .*.duihua.org*.:80
 :80/.*\.duihua\.org
@@ -823,6 +825,8 @@ dw-world.de:80
 :80/.*e-info\.org\.tw
 .*.e-traderland.net:80/board
 :80/.*\.e-traderland\.net/board
+.*.easy-share.com:80/191
+:80/.*\.easy-share\.com/191
 .*hkjp.easyweb.hk*.:80
 :80/.*hkjp\.easyweb\.hk
 .*ebookee.com*.:80
@@ -1056,6 +1060,8 @@ ff.im:80
 .fscked.org
 .*.fsurf.com*.:80
 :80/.*\.fsurf\.com
+.*.ftchinese.com:80/story/001038220
+:80/.*\.ftchinese\.com/story/001038220
 .*.fuckcnnic.net*.:80
 :80/.*\.fuckcnnic\.net
 .fuckcnnic.net
@@ -1343,6 +1349,7 @@ ff.im:80
 .feeds.gawker.com
 .geektang.com
 .geohot.us
+.getaround.com
 .gmer.net
 .www.gmote.org
 .blog.go2web20.net
@@ -1513,6 +1520,9 @@ ub0.cc:80
 .willhains.com
 .feeds.wired.com
 .wisemapping.org
+.*wozy.in*.:80
+:80/.*wozy\.in
+.wozy.in
 .blog.wundercounter.com
 #-X
 .xdelta.org
@@ -1564,6 +1574,9 @@ ub0.cc:80
 #--Da Lai La Ma
 .*.google.com*%E8%BE%BE%E8%B5%96%E5%96%87%E5%98%9B*.:80
 :80/.*\.google\.com.*%E8%BE%BE%E8%B5%96%E5%96%87%E5%98%9B
+#--Dai Li/Proxy
+.**.google.com*%E4%BB%A3%E7%90%86*.:80
+:80/.*.*\.google\.com.*%E4%BB%A3%E7%90%86
 #--Fan Qiang
 .*.google.*%E7%BF%BB%E5%A2%99*.:80
 :80/.*\.google\..*%E7%BF%BB%E5%A2%99
@@ -1797,9 +1810,11 @@ talkgadget.google.com:443/
 .*.hacken.cc:80/bbs
 :80/.*\.hacken\.cc/bbs
 .hackthatphone.net
-.hakkatv.org.tw
 .*hahlo.com*.:80
 :80/.*hahlo\.com
+.hakkatv.org.tw
+.*.hanunyi.com*.:80
+:80/.*\.hanunyi\.com
 .hasaowall.com
 .hdtvb.net
 .heartyit.com
@@ -2047,6 +2062,7 @@ jimoparty.com:80
 .jitouch.com
 .*jkforum.net*.:80
 :80/.*jkforum\.net
+.joachims.org
 .jobso.tv
 .joeedelman.com
 .journalofdemocracy.org
@@ -2282,6 +2298,8 @@ lookatgame.com:80
 .*.md-t.org*.:80
 :80/.*\.md-t\.org
 .md-t.org
+.*.mediafire.com:80/?
+:80/.*\.mediafire\.com/?
 .meetup.com
 .*lich355.megabyet.net:80/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%BF%81%E7%A7%BB%E8%AE%B0
 :80/.*lich355\.megabyet\.net/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%BF%81%E7%A7%BB%E8%AE%B0
@@ -2484,6 +2502,9 @@ nanyangpost.com:80
 .newsminer.com
 .*newspeak.cc:80/story
 :80/.*newspeak\.cc/story
+.*.newspp.org*.:80
+:80/.*\.newspp\.org
+.newspp.org
 .*newstin.com*.:80
 :80/.*newstin\.com
 .*newtalk.tw*.:80
@@ -4075,7 +4096,6 @@ waiwaier.com:80
 .*zhenxiang.wordpress.com*.:80
 :80/.*zhenxiang\.wordpress\.com
 .*wordpress.com:443
-:80/.*https://.*wordpress\.com
 #-||wordpress.com
 #-|http://wp.com/
 #-||android.wordpress.org

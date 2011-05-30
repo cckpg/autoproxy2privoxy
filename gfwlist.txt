@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: UQ29OTwOdNlTs8JOq8lmVw
+! Checksum: w2TqbQDXV+hXct7DxJ7rgg
 ! Expires: 6h
-! Last Modified: Sat, 28 May 2011 18:39:01 +0800
+! Last Modified: Mon, 30 May 2011 17:47:37 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -523,6 +523,7 @@ dphk.org
 .dropbox.com
 ||dtiblog.com
 dtiserv2.com
+.duckload.com/download
 ||duckmylife.com
 .duihua.org
 ||duihua.org
@@ -549,6 +550,7 @@ dy24k.info
 .e-gold.com
 e-info.org.tw
 .e-traderland.net/board
+.easy-share.com/191
 hkjp.easyweb.hk
 ebookee.com
 bbs.ecstart.com
@@ -700,6 +702,7 @@ friendfeed-media.com/e99a4ebe2fb4c1985c2a58775eb4422961aa5a2e
 ||frommel.net
 ||fscked.org
 .fsurf.com
+.ftchinese.com/story/001038220
 .fuckcnnic.net
 ||fuckcnnic.net
 fuckgfw.org
@@ -921,6 +924,7 @@ chinaaid.net
 ||feeds.gawker.com
 ||geektang.com
 ||geohot.us
+||getaround.com
 ||gmer.net
 ||www.gmote.org
 ||blog.go2web20.net
@@ -1093,6 +1097,8 @@ chinaaid.net
 ||willhains.com
 ||feeds.wired.com
 ||wisemapping.org
+wozy.in
+||wozy.in/
 ||blog.wundercounter.com
 !-X
 ||xdelta.org
@@ -1128,6 +1134,8 @@ google*search*q=cache
 .google*search*%E5%8C%97%E5%9B%BD%E4%B9%8B%E6%98%A5
 !--Da Lai La Ma
 .google.com*%E8%BE%BE%E8%B5%96%E5%96%87%E5%98%9B
+!--Dai Li/Proxy
+*.google.com*%E4%BB%A3%E7%90%86
 !--Fan Qiang
 .google.*%E7%BF%BB%E5%A2%99
 !--Gao Zhi Sheng
@@ -1281,8 +1289,9 @@ myboooks.googlepages.com
 h1n1china.org
 .hacken.cc/bbs
 ||hackthatphone.net
-||hakkatv.org.tw
 hahlo.com
+||hakkatv.org.tw
+.hanunyi.com
 ||hasaowall.com
 @@||haygo.com
 ||hdtvb.net
@@ -1456,6 +1465,7 @@ jingpin.org
 ac.jiruan.net
 ||jitouch.com
 jkforum.net
+||joachims.org
 ||jobso.tv
 ||joeedelman.com
 ||journalofdemocracy.org
@@ -1611,6 +1621,7 @@ mashable.com
 mayimayi.com
 .md-t.org
 ||md-t.org
+.mediafire.com/?
 ||meetup.com
 lich355.megabyet.net/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%BF%81%E7%A7%BB%E8%AE%B0
 ||megaporn.com
@@ -1741,6 +1752,8 @@ bbs2.newsgroup.la
 forum.newsgroup.la
 ||newsminer.com
 newspeak.cc/story
+.newspp.org
+||newspp.org
 newstin.com
 newtalk.tw
 ||newtalk.tw
@@ -2844,7 +2857,7 @@ en.wordpress.com/tag
 zh-cn.wordpress.com
 zh-sg.wordpress.com
 zhenxiang.wordpress.com
-https://*wordpress.com
+|https://*wordpress.com
 !-||wordpress.com
 !-|http://wp.com/
 @@|http://wordpress.com
