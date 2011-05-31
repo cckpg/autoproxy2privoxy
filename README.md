@@ -82,3 +82,4 @@ Links
 
 * [AutoProxy Rules](https://autoproxy.org/zh-CN/Rules)
 * [Privoxy Patterns](http://www.privoxy.org/user-manual/actions-file.html#AF-PATTERNS)
+* [Set Up SSH to Bypass GFW - The Definitive Guide](http://cckpg.blogspot.com/2011/05/set-up-ssh-to-bypass-gfw-definitive.html#privoxy-as-http-proxy)
