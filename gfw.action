@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: w2TqbQDXV+hXct7DxJ7rgg
+# Checksum: gr1S6r0ihJrA90gU/78n+Q
 # Expires: 6h
-# Last Modified: Mon, 30 May 2011 17:47:37 +0800
+# Last Modified: Thu, 02 Jun 2011 19:19:38 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -846,6 +846,7 @@ dw-world.de:80
 .emacsblog.org
 .*.emory.edu*.:80
 :80/.*\.emory\.edu
+.emscripten.org
 .*.emule-ed2k.com*.:80
 :80/.*\.emule-ed2k\.com
 emule-ed2k.com:80
@@ -1625,6 +1626,9 @@ ub0.cc:80
 #--Mai Dang Lao | McDonald
 .*.google.*%E9%BA%A6%E5%BD%93%E5%8A%B3*.:80
 :80/.*\.google\..*%E9%BA%A6%E5%BD%93%E5%8A%B3
+#--Meng Gu+Shi Wei
+.*.google.*%E5%86%85%E8%92%99*%E7%A4%BA%E5%A8%81*.:80
+:80/.*\.google\..*%E5%86%85%E8%92%99.*%E7%A4%BA%E5%A8%81
 #--Meng Jian Zhu
 .*.google.*%E5%AD%9F%E5%BB%BA%E6%9F%B1*.:80
 :80/.*\.google\..*%E5%AD%9F%E5%BB%BA%E6%9F%B1
@@ -1899,8 +1903,9 @@ hk-pub.com:80/forum
 .hkzone.org
 .*apps.hloli.net:80/gfwtube
 :80/.*apps\.hloli\.net/gfwtube
-.*blog.hnjhj.com*.:80
-:80/.*blog\.hnjhj\.com
+.*hnjhj.com*.:80
+:80/.*hnjhj\.com
+.hnjhj.com
 .derekhsu.homeip.net
 .*hongmeimei.com*.:80
 :80/.*hongmeimei\.com
@@ -2540,6 +2545,9 @@ dayaarmongol.ning.com:80
 .njuice.com
 .*no-ip.com*.:80
 :80/.*no-ip\.com
+.*.nobelprize.org*.:80
+:80/.*\.nobelprize\.org
+nobelprize.org:80
 .*nobelprize.org:80/nobel_prizes/peace/laureates/2010
 :80/.*nobelprize\.org/nobel_prizes/peace/laureates/2010
 .*nobodycanstop.us*.:80
@@ -3833,6 +3841,8 @@ udn.com:80
 :80/.*tor\.updatestar\.com
 .*.upload4u.info*.:80
 :80/.*\.upload4u\.info
+.*.uploadstation.com:80/file
+:80/.*\.uploadstation\.com/file
 .*myshare.url.com.tw:80/
 :80/.*myshare\.url\.com\.tw/
 .urlborg.com
@@ -4095,7 +4105,7 @@ waiwaier.com:80
 :80/.*zh-sg\.wordpress\.com
 .*zhenxiang.wordpress.com*.:80
 :80/.*zhenxiang\.wordpress\.com
-.*wordpress.com:443
+.*.wordpress.com:443
 #-||wordpress.com
 #-|http://wp.com/
 #-||android.wordpress.org
@@ -5166,7 +5176,6 @@ zaobao.com:80/
 .myvlog.im.tv
 .music.jwmusic.org
 .www.kodingen.com
-.cn.mobile01.com
 .static.soup.io
 .www.tripod.com
 .assets.tumblr.com

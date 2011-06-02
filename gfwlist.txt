@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: w2TqbQDXV+hXct7DxJ7rgg
+! Checksum: gr1S6r0ihJrA90gU/78n+Q
 ! Expires: 6h
-! Last Modified: Mon, 30 May 2011 17:47:37 +0800
+! Last Modified: Thu, 02 Jun 2011 19:19:38 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -563,6 +563,7 @@ edoors.com
 .eltondisney.com
 ||emacsblog.org
 .emory.edu
+||emscripten.org
 .emule-ed2k.com
 |http://emule-ed2k.com
 chinese.engadget.com
@@ -1168,6 +1169,8 @@ search*%E9%85%B7%E5%88%91
 .google.*%E9%A9%AC%E5%87%AF
 !--Mai Dang Lao | McDonald
 .google.*%E9%BA%A6%E5%BD%93%E5%8A%B3
+!--Meng Gu+Shi Wei
+.google.*%E5%86%85%E8%92%99*%E7%A4%BA%E5%A8%81
 !--Meng Jian Zhu
 .google.*%E5%AD%9F%E5%BB%BA%E6%9F%B1
 !--Meng Ying Wei Ming Hu
@@ -1353,7 +1356,8 @@ hkjc.com
 ||hkreporter.com
 ||hkzone.org
 apps.hloli.net/gfwtube
-blog.hnjhj.com
+hnjhj.com
+||hnjhj.com
 ||derekhsu.homeip.net
 hongmeimei.com
 hootsuite.com
@@ -1668,7 +1672,6 @@ plurktop.mmdays.com
 .mmmca.com
 ||mobatek.net
 .mobile01.com
-@@||cn.mobile01.com
 ||mobileways.de
 .mobypicture.com
 |http://moby.to
@@ -1776,6 +1779,8 @@ taiwanyes.ning.com
 njuice.com
 ||njuice.com
 no-ip.com
+.nobelprize.org
+|http://nobelprize.org
 nobelprize.org/nobel_prizes/peace/laureates/2010
 nobodycanstop.us
 ||nobodycanstop.us
@@ -2673,6 +2678,7 @@ uncyclopedia.info
 ||uocn.org
 tor.updatestar.com
 .upload4u.info
+.uploadstation.com/file
 myshare.url.com.tw/
 ||urlborg.com
 ||urlparser.com
@@ -2857,7 +2863,7 @@ en.wordpress.com/tag
 zh-cn.wordpress.com
 zh-sg.wordpress.com
 zhenxiang.wordpress.com
-|https://*wordpress.com
+|https://*.wordpress.com
 !-||wordpress.com
 !-|http://wp.com/
 @@|http://wordpress.com
