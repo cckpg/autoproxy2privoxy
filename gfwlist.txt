@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: gr1S6r0ihJrA90gU/78n+Q
+! Checksum: b6gD1ESpp3TMNyd8yqVPVA
 ! Expires: 6h
-! Last Modified: Thu, 02 Jun 2011 19:19:38 +0800
+! Last Modified: Tue, 07 Jun 2011 00:17:07 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -23,7 +23,7 @@ t.16class.cn
 .1984bbs.org
 ||1984bbs.org
 .1bao.org
-http://1bao.org
+|http://1bao.org
 ||1free.ws
 ||1pondo.tv
 bbs.1tor.com
@@ -32,7 +32,6 @@ bbs.1tor.com
 ||2008xianzhang.info
 .21code.com
 .2shared.com
-||2shared.com
 .315lz.com
 ||36rain.com
 ||3b8.cc/
@@ -143,6 +142,7 @@ www.aolnews.com
 .apigee.com
 ||apigee.com
 itunes.apple.com*358801284
+||appledaily.com.tw
 .archive.org
 ||archive.org
 ||archlinux.fr
@@ -213,6 +213,7 @@ beijingspring.com
 .bigsound.org/portnoy
 ||bill2-software.com
 ||billywr.com
+.bitshare.com/files
 .bitsnoop.com
 |http://bitsnoop.com
 bjzc.org
@@ -368,8 +369,10 @@ camera.chinatimes.com
 forum.chinatimes.com
 gb.chinatimes.com/gate/gb*2007Cti-News
 gb.chinatimes.com/gate/gb/news.chinatimes.com/focus
-news.chinatimes.com/2007Cti*0,4521,130505
-news.chinatimes.com/2007Cti/2007Cti-Rtn/2007Cti-Rtn-Content
+.news.chinatimes.com
+|http://news.chinatimes.com
+!--news.chinatimes.com/2007Cti*0,4521,130505
+!--news.chinatimes.com/2007Cti/2007Cti-Rtn/2007Cti-Rtn-Content
 chinatweeps.com
 chinaway.org
 .chinaworker.info
@@ -488,6 +491,7 @@ delicious.com/GFWbookmark
 ||desc.se/
 ||deutsche-welle.de
 ||dev102.com
+||devio.us
 .diaoyuislands.org
 ||diaoyuislands.org
 ||digitalnomadsproject.org
@@ -626,6 +630,7 @@ felixcat.net
 ||fengzhenghu.com
 fflick.com
 .fgmtv.org
+.filefactory.com/file
 .files2me.com
 |http://files2me.com
 .fileserve.com/file
@@ -1319,6 +1324,7 @@ hellotxt.com
 ||lesscss.org
 ||list.ly
 ||overlapr.com
+||peerpong.com
 ||samsoff.es
 ||sendoid.com
 ||speckleapp.com
@@ -1378,6 +1384,7 @@ t.huhaitai.com
 .hulu.com
 ||hungerstrikeforaids.org
 ||huping.net
+||hutianyi.net
 
 !--------------------------II--------------------------
 ||i2p2.de/
@@ -1631,6 +1638,7 @@ lich355.megabyet.net/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%B
 ||megaporn.com
 ||megarotic.com
 ||megaupload.com
+.megaupload.com/?d=
 megavideo.com
 ||megurineluka.com
 meirixiaochao.com
@@ -2063,6 +2071,7 @@ blog.redren.com/2009/01/jap-let-you-use-online-stealth
 renminbao.com
 .renyurenquan.org
 ||renyurenquan.org
+subacme.rerouted.org
 .revleft.com
 retweetist.com
 ||retweetrank.com
@@ -2124,11 +2133,11 @@ secretchina.com
 ||secretgarden.no
 ||default.secureserver.net
 seesmic.com
-||seesmic.com
 ||seezone.net
 sejie.com
 .sendspace.com/file
 sesawe.net
+||sesawe.net
 .sesawe.org
 ||sethwklein.net
 forum.setty.com.tw
@@ -2161,6 +2170,8 @@ shinychan.com
 .shizhao.org
 shkspr.mobi/dabr
 ch.shvoong.com
+.shwchurch3.com
+|http://shwchurch3.com
 simpleproductivityblog.com
 bbs.sina.com/
 bbs.sina.com%2F
@@ -2257,6 +2268,8 @@ cn.streetvoice.com/article
 cn.streetvoice.com/diary
 cn2.streetvoice.com
 tw.streetvoice.com
+.strongvpn.com
+|http://strongvpn.com
 .student.tw/db
 blog.sufeng.org
 .sugarsync.com
@@ -2398,11 +2411,11 @@ bb.ttv.com.tw/bb
 .tube.com
 tuidang.net
 bbs.tuitui.info
+.turbobit.net
+|http://turbobit.net
 ||turningtorso.com
 ||tuxtraining.com
-twurl.nl
-.twyac.org
-||twyac.org
+
 
 !-------------Tumblr-----
 !-||tumblr.com
@@ -2474,6 +2487,7 @@ twurl.nl
 ||blog.path.com
 ||parislemon.com
 ||blog.pikchur.com
+||blog.rockmelt.com
 ||blog.romanandreg.com
 ||solozorro.tk
 ||blog.sparrowmailapp.com
@@ -2550,12 +2564,13 @@ twibase.com
 ||twibble.de
 twibbon.com
 ||twibs.com
-||twindexx.com
 .twifan.com
 |http://twifan.com
 twiffo.com
 ||twiffo.com
 twilog.org
+twimbow.com
+||twindexx.com
 ||twip.me/
 twistar.cc
 twisternow.com
@@ -2620,6 +2635,9 @@ twiyia.com
 
 .twtkr.com
 |http://twtkr.com
+twurl.nl
+.twyac.org
+||twyac.org
 .tycool.com
 ||tycool.com
 tynsoe.org
@@ -2951,7 +2969,7 @@ video.yahoo.com
 ||yahoo.com.hk
 blog.yam.com
 .mymedia.yam.com
-||mymedia.yam.com
+|http://mymedia.yam.com
 n.yam.com
 news.yam.com
 .ydy.com
@@ -3037,6 +3055,7 @@ zhufeng.me
 ||zonaeuropa.com
 .zoozle.net
 writer.zoho.com
+.zshare.net/download
 ||zuihulu.net
 .zuihulu.net
 .zuo.la

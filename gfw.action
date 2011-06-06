@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: gr1S6r0ihJrA90gU/78n+Q
+# Checksum: b6gD1ESpp3TMNyd8yqVPVA
 # Expires: 6h
-# Last Modified: Thu, 02 Jun 2011 19:19:38 +0800
+# Last Modified: Tue, 07 Jun 2011 00:17:07 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -33,7 +33,6 @@
 .*.1bao.org*.:80
 :80/.*\.1bao\.org
 1bao.org:80
-:80/.*http://1bao\.org
 .1free.ws
 .1pondo.tv
 .*bbs.1tor.com*.:80
@@ -47,7 +46,6 @@
 :80/.*\.21code\.com
 .*.2shared.com*.:80
 :80/.*\.2shared\.com
-.2shared.com
 .*.315lz.com*.:80
 :80/.*\.315lz\.com
 .36rain.com
@@ -208,6 +206,7 @@ antiwave.net:80
 .apigee.com
 .*itunes.apple.com*358801284*.:80
 :80/.*itunes\.apple\.com.*358801284
+.appledaily.com.tw
 .*.archive.org*.:80
 :80/.*\.archive\.org
 .archive.org
@@ -311,6 +310,8 @@ bbc.in:80
 :80/.*\.bigsound\.org/portnoy
 .bill2-software.com
 .billywr.com
+.*.bitshare.com:80/files
+:80/.*\.bitshare\.com/files
 .*.bitsnoop.com*.:80
 :80/.*\.bitsnoop\.com
 bitsnoop.com:80
@@ -458,8 +459,8 @@ cn.calameo.com:80
 .*cdjp.org*.:80
 :80/.*cdjp\.org
 .cdjp.org
-.*.cdnews.com.tw:80/cdnews_site/docDetail\.jsp?
-:80/.*\.cdnews\.com\.tw/cdnews_site/docDetail\.jsp?
+.*.cdnews.com.tw:80/cdnews_site/docDetail\.jsp\?
+:80/.*\.cdnews\.com\.tw/cdnews_site/docDetail\.jsp\?
 .*cdp1998.org*.:80
 :80/.*cdp1998\.org
 .cdp1998.org
@@ -519,8 +520,8 @@ chinadigitaltimes.net:80
 :80/.*chinaxchina\.com/howto
 .*.chinainperspective.com*.:80
 :80/.*\.chinainperspective\.com
-.*chinainperspective.net:80/ArtShow\.aspx?
-:80/.*chinainperspective\.net/ArtShow\.aspx?
+.*chinainperspective.net:80/ArtShow\.aspx\?
+:80/.*chinainperspective\.net/ArtShow\.aspx\?
 .chinainperspective.net
 .*.chinainperspective.org*.:80
 :80/.*\.chinainperspective\.org
@@ -545,10 +546,11 @@ chinadigitaltimes.net:80
 :80/.*gb\.chinatimes\.com/gate/gb.*2007Cti-News
 .*gb.chinatimes.com:80/gate/gb/news\.chinatimes\.com/focus
 :80/.*gb\.chinatimes\.com/gate/gb/news\.chinatimes\.com/focus
-.*news.chinatimes.com:80/2007Cti.*0,4521,130505
-:80/.*news\.chinatimes\.com/2007Cti.*0,4521,130505
-.*news.chinatimes.com:80/2007Cti/2007Cti-Rtn/2007Cti-Rtn-Content
-:80/.*news\.chinatimes\.com/2007Cti/2007Cti-Rtn/2007Cti-Rtn-Content
+.*.news.chinatimes.com*.:80
+:80/.*\.news\.chinatimes\.com
+news.chinatimes.com:80
+#--news.chinatimes.com/2007Cti*0,4521,130505
+#--news.chinatimes.com/2007Cti/2007Cti-Rtn/2007Cti-Rtn-Content
 .*chinatweeps.com*.:80
 :80/.*chinatweeps\.com
 .*chinaway.org*.:80
@@ -573,8 +575,8 @@ chinadigitaltimes.net:80
 .*.chingcheong.com*.:80
 :80/.*\.chingcheong\.com
 .chingcheong.com
-.*chn.chosun.com:80/servlet/china\.ArticleList\.ArticleList?code=FFA
-:80/.*chn\.chosun\.com/servlet/china\.ArticleList\.ArticleList?code=FFA
+.*chn.chosun.com:80/servlet/china\.ArticleList\.ArticleList\?code=FFA
+:80/.*chn\.chosun\.com/servlet/china\.ArticleList\.ArticleList\?code=FFA
 .*christianstudy.com*.:80
 :80/.*christianstudy\.com
 .christianstudy.com
@@ -727,6 +729,7 @@ chinadigitaltimes.net:80
 .desc.se
 .deutsche-welle.de
 .dev102.com
+.devio.us
 .*.diaoyuislands.org*.:80
 :80/.*\.diaoyuislands\.org
 .diaoyuislands.org
@@ -940,6 +943,8 @@ emule-ed2k.com:80
 :80/.*fflick\.com
 .*.fgmtv.org*.:80
 :80/.*\.fgmtv\.org
+.*.filefactory.com:80/file
+:80/.*\.filefactory\.com/file
 .*.files2me.com*.:80
 :80/.*\.files2me\.com
 files2me.com:80
@@ -1251,22 +1256,22 @@ ff.im:80
 .*tuite.googlecode.com*.:80
 :80/.*tuite\.googlecode\.com
 #-------------Google Docs-----
-.*docs.google.com:80/Doc?docid=0Ae9jWMoUhgV1ZHd0cjJ2NV81NGQ5MnI0d3E1
-:80/.*docs\.google\.com/Doc?docid=0Ae9jWMoUhgV1ZHd0cjJ2NV81NGQ5MnI0d3E1
-.*docs.google.com:80/View?id=d8xbpp6_4hhpb2dfd
-:80/.*docs\.google\.com/View?id=d8xbpp6_4hhpb2dfd
-.*docs.google.com:80/View?id=dds68dz_9cqgm8vgq
-:80/.*docs\.google\.com/View?id=dds68dz_9cqgm8vgq
+.*docs.google.com:80/Doc\?docid=0Ae9jWMoUhgV1ZHd0cjJ2NV81NGQ5MnI0d3E1
+:80/.*docs\.google\.com/Doc\?docid=0Ae9jWMoUhgV1ZHd0cjJ2NV81NGQ5MnI0d3E1
+.*docs.google.com:80/View\?id=d8xbpp6_4hhpb2dfd
+:80/.*docs\.google\.com/View\?id=d8xbpp6_4hhpb2dfd
+.*docs.google.com:80/View\?id=dds68dz_9cqgm8vgq
+:80/.*docs\.google\.com/View\?id=dds68dz_9cqgm8vgq
 .*docs.google.com*View*id*dg5mtmj9_8g3hk27f5*.:80
 :80/.*docs\.google\.com.*View.*id.*dg5mtmj9_8g3hk27f5
 .*docs.google.com*View*id*dg5mtmj9_3188x48zcn*.:80
 :80/.*docs\.google\.com.*View.*id.*dg5mtmj9_3188x48zcn
-.*docs.google.com:80/View?id=dgjxsxws_148fvpz6wdg
-:80/.*docs\.google\.com/View?id=dgjxsxws_148fvpz6wdg
+.*docs.google.com:80/View\?id=dgjxsxws_148fvpz6wdg
+:80/.*docs\.google\.com/View\?id=dgjxsxws_148fvpz6wdg
 .*docs.google.com*dgtbmwd6_934gg99v6g4cc*.:80
 :80/.*docs\.google\.com.*dgtbmwd6_934gg99v6g4cc
-.*docs.google.com:80/View?id=dhh5gtxb_145nsxgctcc
-:80/.*docs\.google\.com/View?id=dhh5gtxb_145nsxgctcc
+.*docs.google.com:80/View\?id=dhh5gtxb_145nsxgctcc
+:80/.*docs\.google\.com/View\?id=dhh5gtxb_145nsxgctcc
 #-------------Google ghs-----
 .www.20thingsilearned.com
 .www.3dtin.com
@@ -1537,7 +1542,7 @@ ub0.cc:80
 #-------------Google Search-----
 .*.google.*:80/complete/search
 :80/.*\.google\..*/complete/search
-:80/(.*/)?search?q=cache
+:80/(.*/)?search\?q=cache
 :80/(.*/)?search%3Fq%3Dcache
 .*%2Fsearch%3Fq%3Dcache*.:80
 :80/.*%2Fsearch%3Fq%3Dcache
@@ -1787,8 +1792,8 @@ groups.google.com:443/
 :80/.*groups\.google\..*group
 .*knol.google.com:80/k/-/08/3jhi1zdzvxj3f
 :80/.*knol\.google\.com/k/-/08/3jhi1zdzvxj3f
-.*news.google.com.hk:80/nwshp?hl=zh-cn&tab=wn
-:80/.*news\.google\.com\.hk/nwshp?hl=zh-cn&tab=wn
+.*news.google.com.hk:80/nwshp\?hl=zh-cn&tab=wn
+:80/.*news\.google\.com\.hk/nwshp\?hl=zh-cn&tab=wn
 .*picasaweb.google.com*.:80
 :80/.*picasaweb\.google\.com
 .*sites.google.com*.:80
@@ -1846,6 +1851,7 @@ talkgadget.google.com:443/
 .lesscss.org
 .list.ly
 .overlapr.com
+.peerpong.com
 .samsoff.es
 .sendoid.com
 .speckleapp.com
@@ -1881,8 +1887,8 @@ hk-pub.com:80/forum
 :80/.*\.hkdailynews\.com\.hk/china\.php
 .*.hkej.com:80/template/forum
 :80/.*\.hkej\.com/template/forum
-.*.hkepc.com:80/forum/viewthread\.php?tid=1153322
-:80/.*\.hkepc\.com/forum/viewthread\.php?tid=1153322
+.*.hkepc.com:80/forum/viewthread\.php\?tid=1153322
+:80/.*\.hkepc\.com/forum/viewthread\.php\?tid=1153322
 .*global.hkepc.com*forum*.:80
 :80/.*global\.hkepc\.com.*forum
 .*hkgolden.com*.:80
@@ -1936,6 +1942,7 @@ hk-pub.com:80/forum
 :80/.*\.hulu\.com
 .hungerstrikeforaids.org
 .huping.net
+.hutianyi.net
 #--------------------------II--------------------------
 .i2p2.de
 .i2runner.com
@@ -2098,8 +2105,8 @@ jimoparty.com:80
 .kcsoftwares.com
 .*.kechara.com*.:80
 :80/.*\.kechara\.com
-.*.keepandshare.com:80/visit/visit_page\.php?i=688154
-:80/.*\.keepandshare\.com/visit/visit_page\.php?i=688154
+.*.keepandshare.com:80/visit/visit_page\.php\?i=688154
+:80/.*\.keepandshare\.com/visit/visit_page\.php\?i=688154
 .*.kendincos.net*.:80
 :80/.*\.kendincos\.net
 .*.kenengba.com*.:80
@@ -2303,14 +2310,16 @@ lookatgame.com:80
 .*.md-t.org*.:80
 :80/.*\.md-t\.org
 .md-t.org
-.*.mediafire.com:80/?
-:80/.*\.mediafire\.com/?
+.*.mediafire.com:80/\?
+:80/.*\.mediafire\.com/\?
 .meetup.com
 .*lich355.megabyet.net:80/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%BF%81%E7%A7%BB%E8%AE%B0
 :80/.*lich355\.megabyet\.net/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%BF%81%E7%A7%BB%E8%AE%B0
 .megaporn.com
 .megarotic.com
 .megaupload.com
+.*.megaupload.com:80/\?d=
+:80/.*\.megaupload\.com/\?d=
 .*megavideo.com*.:80
 :80/.*megavideo\.com
 .megurineluka.com
@@ -2440,8 +2449,8 @@ moby.to:80
 .*.blogs.myspace.com*.:80
 :80/.*\.blogs\.myspace\.com
 .blogs.myspace.com
-.*vids.myspace.com:80/index\.cfm?fuseaction=vids\.
-:80/.*vids\.myspace\.com/index\.cfm?fuseaction=vids\.
+.*vids.myspace.com:80/index\.cfm\?fuseaction=vids\.
+:80/.*vids\.myspace\.com/index\.cfm\?fuseaction=vids\.
 .*viewmorepics.myspace.com*.:80
 :80/.*viewmorepics\.myspace\.com
 #--------------------------NN--------------------------
@@ -2967,6 +2976,8 @@ rapidscan.me:80
 .*.renyurenquan.org*.:80
 :80/.*\.renyurenquan\.org
 .renyurenquan.org
+.*subacme.rerouted.org*.:80
+:80/.*subacme\.rerouted\.org
 .*.revleft.com*.:80
 :80/.*\.revleft\.com
 .*retweetist.com*.:80
@@ -3064,7 +3075,6 @@ rthk.org.hk:80
 .default.secureserver.net
 .*seesmic.com*.:80
 :80/.*seesmic\.com
-.seesmic.com
 .seezone.net
 .*sejie.com*.:80
 :80/.*sejie\.com
@@ -3072,6 +3082,7 @@ rthk.org.hk:80
 :80/.*\.sendspace\.com/file
 .*sesawe.net*.:80
 :80/.*sesawe\.net
+.sesawe.net
 .*.sesawe.org*.:80
 :80/.*\.sesawe\.org
 .sethwklein.net
@@ -3126,6 +3137,9 @@ rthk.org.hk:80
 :80/.*shkspr\.mobi/dabr
 .*ch.shvoong.com*.:80
 :80/.*ch\.shvoong\.com
+.*.shwchurch3.com*.:80
+:80/.*\.shwchurch3\.com
+shwchurch3.com:80
 .*simpleproductivityblog.com*.:80
 :80/.*simpleproductivityblog\.com
 .*bbs.sina.com:80/
@@ -3277,6 +3291,9 @@ spb.com:80/symbian-software/tv/download
 :80/.*cn2\.streetvoice\.com
 .*tw.streetvoice.com*.:80
 :80/.*tw\.streetvoice\.com
+.*.strongvpn.com*.:80
+:80/.*\.strongvpn\.com
+strongvpn.com:80
 .*.student.tw:80/db
 :80/.*\.student\.tw/db
 .*blog.sufeng.org*.:80
@@ -3288,9 +3305,9 @@ spb.com:80/symbian-software/tv/download
 :80/.*t\.sunxun\.info/login\.php
 .*www.supertweet.net*.:80
 :80/.*www\.supertweet\.net
-.*support:80/youtube/bin/request\.py?contact_type=abuse&
-:80/.*support/youtube/bin/request\.py?contact_type=abuse&
-:80/(.*/)?support/youtube/bin/static\.py?page=start\.cs&
+.*support:80/youtube/bin/request\.py\?contact_type=abuse&
+:80/.*support/youtube/bin/request\.py\?contact_type=abuse&
+:80/(.*/)?support/youtube/bin/static\.py\?page=start\.cs&
 .sweux.com
 .swift-tools.net
 .syncback.com
@@ -3415,8 +3432,8 @@ thisav.com:80
 :80/.*\.time\.com/time/time100/leaders/profile/rebel
 .*.time.com:80/time/specials/packages/article/0,28804
 :80/.*\.time\.com/time/specials/packages/article/0,28804
-.*times.hinet.net:80/times/module\.do?option=mainland
-:80/.*times\.hinet\.net/times/module\.do?option=mainland
+.*times.hinet.net:80/times/module\.do\?option=mainland
+:80/.*times\.hinet\.net/times/module\.do\?option=mainland
 .blog.tiney.com
 .tinypaste.com
 .tidyread.com
@@ -3496,13 +3513,11 @@ truth101.co.tv:80
 :80/.*tuidang\.net
 .*bbs.tuitui.info*.:80
 :80/.*bbs\.tuitui\.info
+.*.turbobit.net*.:80
+:80/.*\.turbobit\.net
+turbobit.net:80
 .turningtorso.com
 .tuxtraining.com
-.*twurl.nl*.:80
-:80/.*twurl\.nl
-.*.twyac.org*.:80
-:80/.*\.twyac\.org
-.twyac.org
 #-------------Tumblr-----
 #-||tumblr.com
 .301works.org
@@ -3569,6 +3584,7 @@ truth101.co.tv:80
 .blog.path.com
 .parislemon.com
 .blog.pikchur.com
+.blog.rockmelt.com
 .blog.romanandreg.com
 .solozorro.tk
 .blog.sparrowmailapp.com
@@ -3667,7 +3683,6 @@ deck.ly:80
 .*twibbon.com*.:80
 :80/.*twibbon\.com
 .twibs.com
-.twindexx.com
 .*.twifan.com*.:80
 :80/.*\.twifan\.com
 twifan.com:80
@@ -3676,6 +3691,9 @@ twifan.com:80
 .twiffo.com
 .*twilog.org*.:80
 :80/.*twilog\.org
+.*twimbow.com*.:80
+:80/.*twimbow\.com
+.twindexx.com
 .twip.me
 .*twistar.cc*.:80
 :80/.*twistar\.cc
@@ -3763,6 +3781,11 @@ twt.tl:80
 .*.twtkr.com*.:80
 :80/.*\.twtkr\.com
 twtkr.com:80
+.*twurl.nl*.:80
+:80/.*twurl\.nl
+.*.twyac.org*.:80
+:80/.*\.twyac\.org
+.twyac.org
 .*.tycool.com*.:80
 :80/.*\.tycool\.com
 .tycool.com
@@ -3833,8 +3856,8 @@ udn.com:80
 .unholyknight.com
 .*.uni.cc*.:80
 :80/.*\.uni\.cc
-.*.uniteddaily.com.my:80/index\.php?
-:80/.*\.uniteddaily\.com\.my/index\.php?
+.*.uniteddaily.com.my:80/index\.php\?
+:80/.*\.uniteddaily\.com\.my/index\.php\?
 .unknownspace.org
 .uocn.org
 .*tor.updatestar.com*.:80
@@ -4246,7 +4269,7 @@ xing.com:80
 :80/.*blog\.yam\.com
 .*.mymedia.yam.com*.:80
 :80/.*\.mymedia\.yam\.com
-.mymedia.yam.com
+mymedia.yam.com:80
 .*n.yam.com*.:80
 :80/.*n\.yam\.com
 .*news.yam.com*.:80
@@ -4385,6 +4408,8 @@ zaobao.com:80/
 :80/.*\.zoozle\.net
 .*writer.zoho.com*.:80
 :80/.*writer\.zoho\.com
+.*.zshare.net:80/download
+:80/.*\.zshare\.net/download
 .zuihulu.net
 .*.zuihulu.net*.:80
 :80/.*\.zuihulu\.net
