@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: b6gD1ESpp3TMNyd8yqVPVA
+# Checksum: whhd9txtadGp24IYhwcxNA
 # Expires: 6h
-# Last Modified: Tue, 07 Jun 2011 00:17:07 +0800
+# Last Modified: Fri, 10 Jun 2011 07:15:26 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -330,6 +330,9 @@ bitsnoop.com:80
 .*.blip.tv*.:80
 :80/.*\.blip\.tv
 .blip.tv
+.*.blockcn.com*.:80
+:80/.*\.blockcn\.com
+.blockcn.com
 .*.blogcatalog.com*.:80
 :80/.*\.blogcatalog\.com
 .blogcatalog.com
@@ -3303,6 +3306,8 @@ strongvpn.com:80
 .sugarsync.com
 .*t.sunxun.info:80/login\.php
 :80/.*t\.sunxun\.info/login\.php
+.*api.supertweet.net*.:80
+:80/.*api\.supertweet\.net
 .*www.supertweet.net*.:80
 :80/.*www\.supertweet\.net
 .*support:80/youtube/bin/request\.py\?contact_type=abuse&
@@ -3519,7 +3524,7 @@ turbobit.net:80
 .turningtorso.com
 .tuxtraining.com
 #-------------Tumblr-----
-#-||tumblr.com
+.www.tumblr.com
 .301works.org
 .365singles.com.ar
 .all-that-is-interesting.com
@@ -3542,6 +3547,7 @@ turbobit.net:80
 .photos.dailyme.com
 .davidslog.com
 .blog.davidziegler.net
+.blog.dayoneapp.com
 .drewolanoff.com
 .blog.dribbble.com
 .chaos.e-spacy.com
@@ -4607,10 +4613,6 @@ zaobao.com:80/
 :80/.*zh\.m\.wikipedia\.org
 .*zh.wikipedia.org:80/wiki/Special:Contributions
 :80/.*zh\.wikipedia\.org/wiki/Special:Contributions
-.*zh.wikipedia.org:80/zh-hk/Twitter
-:80/.*zh\.wikipedia\.org/zh-hk/Twitter
-.*zh.wikipedia.org:80/wiki/Twitter
-:80/.*zh\.wikipedia\.org/wiki/Twitter
 .*zh.wikisource.org*.:80
 :80/.*zh\.wikisource\.org
 #--512 Da Di Zhen
@@ -4648,6 +4650,11 @@ zaobao.com:80/
 #--Bo Xi Lai
 .*zh.wikipedia.org*%E8%96%84%E7%86%99%E6%9D%A5*.:80
 :80/.*zh\.wikipedia\.org.*%E8%96%84%E7%86%99%E6%9D%A5
+#--Bo Xun
+.*zh.wikipedia.org:80/zh-tw/%E5%8D%9A%E8%AE%AF
+:80/.*zh\.wikipedia\.org/zh-tw/%E5%8D%9A%E8%AE%AF
+.*zh.wikipedia.org:80/wiki/%E5%8D%9A%E8%AE%AF
+:80/.*zh\.wikipedia\.org/wiki/%E5%8D%9A%E8%AE%AF
 #--Bu La Ge Zhi Chun
 .*zh.wikipedia.org*%E5%B8%83%E6%8B%89%E6%A0%BC%E4%B9%8B%E6%98%A5*.:80
 :80/.*zh\.wikipedia\.org.*%E5%B8%83%E6%8B%89%E6%A0%BC%E4%B9%8B%E6%98%A5
@@ -4663,7 +4670,7 @@ zaobao.com:80/
 #--Da Ji Yuan
 .*zh.wikipedia.org*%E5%A4%A7%E7%B4%80%E5%85%83*.:80
 :80/.*zh\.wikipedia\.org.*%E5%A4%A7%E7%B4%80%E5%85%83
-#--Da Ji Yuan Shi Bao: zh-cn
+#--Da Ji Yuan Shi Bao (zh-hans)
 .*zh.wikipedia.org*%E5%A4%A7%E7%BA%AA%E5%85%83%E6%97%B6%E6%8A%A5*.:80
 :80/.*zh\.wikipedia\.org.*%E5%A4%A7%E7%BA%AA%E5%85%83%E6%97%B6%E6%8A%A5
 #--Da Lai La Ma
@@ -4683,7 +4690,7 @@ zaobao.com:80/
 :80/.*zh\.wikipedia\.org.*%E5%A4%9A%E7%BB%B4
 .*zh.wikipedia.org*%E5%A4%9A%E7%B6%AD*.:80
 :80/.*zh\.wikipedia\.org.*%E5%A4%9A%E7%B6%AD
-#--E Luo Si - zh-tw
+#--E Luo Si (zh-hant)
 .*zh.wikipedia.org*%E4%BF%84%E7%BE%85%E6%96%AF*.:80
 :80/.*zh\.wikipedia\.org.*%E4%BF%84%E7%BE%85%E6%96%AF
 #--Fan Hua Shi Li
@@ -4719,11 +4726,17 @@ zaobao.com:80/
 #--Gao Xing Jian
 .*zh.wikipedia.org*%E9%AB%98%E8%A1%8C%E5%81%A5*.:80
 :80/.*zh\.wikipedia\.org.*%E9%AB%98%E8%A1%8C%E5%81%A5
+#--GFW
 .*zh.wikipedia.org*GFW*.:80
 :80/.*zh\.wikipedia\.org.*GFW
 #--Google Shen Cha
 .*zh.wikipedia.org*Google%E5%AE%A1%E6%9F%A5*.:80
 :80/.*zh\.wikipedia\.org.*Google%E5%AE%A1%E6%9F%A5
+#--Gu Ge Tui Chu Zhong Guo Shi Jian (Google)
+.*zh.wikipedia.org:80/zh-cn/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
+:80/.*zh\.wikipedia\.org/zh-cn/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
+.*zh.wikipedia.org:80/wiki/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
+:80/.*zh\.wikipedia\.org/wiki/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
 #--Guo Bao
 .*zh.wikipedia.org*%E5%9B%BD%E4%BF%9D*.:80
 :80/.*zh\.wikipedia\.org.*%E5%9B%BD%E4%BF%9D
@@ -4764,11 +4777,16 @@ zaobao.com:80/
 #--Hu Yao Bang
 .*zh.wikipedia.org*%E8%83%A1%E8%80%80%E9%82%A6*.:80
 :80/.*zh\.wikipedia\.org.*%E8%83%A1%E8%80%80%E9%82%A6
-#--Hua Guo Feng (s/t)
+#--Hua Guo Feng (zh-hans/hant)
+.*zh.wikipedia.org*%E5%8D%8E%E5%9B%BD%E9%94%8B*.:80
+:80/.*zh\.wikipedia\.org.*%E5%8D%8E%E5%9B%BD%E9%94%8B
 .*zh.wikipedia.org*%E5%8D%8E%E5%9B%BD%E9%94%8B*.:80
 :80/.*zh\.wikipedia\.org.*%E5%8D%8E%E5%9B%BD%E9%94%8B
 .*zh.wikipedia.org*%E8%8F%AF%E5%9C%8B%E9%8B%92*.:80
 :80/.*zh\.wikipedia\.org.*%E8%8F%AF%E5%9C%8B%E9%8B%92
+#--Hua Xia Wen Zhai
+.*zh.wikipedia.org*%E5%8D%8E%E5%A4%8F%E6%96%87%E6%91%98*.:80
+:80/.*zh\.wikipedia\.org.*%E5%8D%8E%E5%A4%8F%E6%96%87%E6%91%98
 #--Hua Yuan Ruan Jian
 .*zh.wikipedia.org*%E8%8A%B1%E5%9B%AD%E8%BD%AF%E4%BB%B6*.:80
 :80/.*zh\.wikipedia\.org.*%E8%8A%B1%E5%9B%AD%E8%BD%AF%E4%BB%B6
@@ -4781,6 +4799,9 @@ zaobao.com:80/
 #--Huang Que Xing Dong
 .*zh.wikipedia.org*%E9%BB%83%E9%9B%80%E8%A1%8C%E5%8B%95*.:80
 :80/.*zh\.wikipedia\.org.*%E9%BB%83%E9%9B%80%E8%A1%8C%E5%8B%95
+#--Huang Wan Li
+.*zh.wikipedia.org*%E9%BB%84%E4%B8%87%E9%87%8C*.:80
+:80/.*zh\.wikipedia\.org.*%E9%BB%84%E4%B8%87%E9%87%8C
 #--Huo Ying Dong
 .*zh.wikipedia.org*%E9%9C%8D%E8%8B%B1%E6%9D%B1*.:80
 :80/.*zh\.wikipedia\.org.*%E9%9C%8D%E8%8B%B1%E6%9D%B1
@@ -4793,7 +4814,7 @@ zaobao.com:80/
 #--Jia Qing Lin
 .*zh.wikipedia.org*%E8%B3%88%E6%85%B6%E6%9E%97*.:80
 :80/.*zh\.wikipedia\.org.*%E8%B3%88%E6%85%B6%E6%9E%97
-#--Jiang Ze Min (s/t)
+#--Jiang Ze Min (zh-hans/hant)
 .*zh.wikipedia.org*%E6%B1%9F%E6%B3%BD%E6%B0%91*.:80
 :80/.*zh\.wikipedia\.org.*%E6%B1%9F%E6%B3%BD%E6%B0%91
 .*zh.wikipedia.org*%E6%B1%9F%E6%BE%A4%E6%B0%91*.:80
@@ -4810,9 +4831,11 @@ zaobao.com:80/
 #--Jue Shi
 .*zh.wikipedia.org*%E7%BB%9D%E9%A3%9F*.:80
 :80/.*zh\.wikipedia\.org.*%E7%BB%9D%E9%A3%9F
-#--Li Chang Chun
+#--Li Chang Chun (zh-hans/hant)
 .*zh.wikipedia.org*%E6%9D%8E%E9%95%BF%E6%98%A5*.:80
 :80/.*zh\.wikipedia\.org.*%E6%9D%8E%E9%95%BF%E6%98%A5
+.*zh.wikipedia.org*%E6%9D%8E%E9%95%B7%E6%98%A5*.:80
+:80/.*zh\.wikipedia\.org.*%E6%9D%8E%E9%95%B7%E6%98%A5
 #--Li Hong Zhi
 .*zh.wikipedia.org*%E6%9D%8E%E6%B4%AA%E5%BF%97*.:80
 :80/.*zh\.wikipedia\.org.*%E6%9D%8E%E6%B4%AA%E5%BF%97
@@ -4864,6 +4887,9 @@ zaobao.com:80/
 #--Lv Ba Hua Ji Hu Hang
 .*zh.wikipedia.org*%E7%B6%A0%E5%A3%A9%C2%B7%E8%8A%B1%E5%AD%A3%E8%AD%B7%E8%88%AA*.:80
 :80/.*zh\.wikipedia\.org.*%E7%B6%A0%E5%A3%A9%C2%B7%E8%8A%B1%E5%AD%A3%E8%AD%B7%E8%88%AA
+#--Lv Ba Niang
+.*zh.wikipedia.org:80/wiki/%e7%bb%bf%e5%9d%9d%e5%a8%98
+:80/.*zh\.wikipedia\.org/wiki/%e7%bb%bf%e5%9d%9d%e5%a8%98
 #--Min Gan Ren Shi
 .*zh.wikipedia.org*%E6%95%8F%E6%84%9F%E4%BA%BA%E5%A3%AB*.:80
 :80/.*zh\.wikipedia\.org.*%E6%95%8F%E6%84%9F%E4%BA%BA%E5%A3%AB
@@ -4873,6 +4899,13 @@ zaobao.com:80/
 #--Min Zhu Dang _ Xiang Gang
 .*zh.wikipedia.org*%E6%B0%91%E4%B8%BB%E9%BB%A8_(%E9%A6%99%E6%B8%AF)*.:80
 :80/.*zh\.wikipedia\.org.*%E6%B0%91%E4%B8%BB%E9%BB%A8_\(%E9%A6%99%E6%B8%AF\)
+#--Nei Meng Gu Kang Yi
+.*zh.wikipedia.org:80/wiki/%E5%86%85%E8%92%99%E5%8F%A4%E6%8A%97%E8%AE%AE
+:80/.*zh\.wikipedia\.org/wiki/%E5%86%85%E8%92%99%E5%8F%A4%E6%8A%97%E8%AE%AE
+.*zh.wikipedia.org:80/zh-hk/%E5%86%85%E8%92%99%E5%8F%A4%E6%8A%97%E8%AE%AE
+:80/.*zh\.wikipedia\.org/zh-hk/%E5%86%85%E8%92%99%E5%8F%A4%E6%8A%97%E8%AE%AE
+.*zh.wikipedia.org:80/zh-tw/%E5%86%85%E8%92%99%E5%8F%A4%E6%8A%97%E8%AE%AE
+:80/.*zh\.wikipedia\.org/zh-tw/%E5%86%85%E8%92%99%E5%8F%A4%E6%8A%97%E8%AE%AE
 #--Niu Bo Wang--
 .*zh.wikipedia.org*%E7%89%9B%E5%8D%9A%E7%BD%91*.:80
 :80/.*zh\.wikipedia\.org.*%E7%89%9B%E5%8D%9A%E7%BD%91
@@ -4917,7 +4950,7 @@ zaobao.com:80/
 #--Shi Xing Yun
 .*zh.wikipedia.org*%E9%87%8A%E6%98%9F%E4%BA%91*.:80
 :80/.*zh\.wikipedia\.org.*%E9%87%8A%E6%98%9F%E4%BA%91
-#--Si Tu Hua (hans/hant)
+#--Si Tu Hua (zh-hans/hant)
 .*zh.wikipedia.org*%E5%8F%B8%E5%BE%92%E5%8D%8E*.:80
 :80/.*zh\.wikipedia\.org.*%E5%8F%B8%E5%BE%92%E5%8D%8E
 .*zh.wikipedia.org*%E5%8F%B8%E5%BE%92%E8%8F%AF*.:80
@@ -4928,7 +4961,7 @@ zaobao.com:80/
 #--Song Bing Bing
 .*zh.wikipedia.org*%E5%AE%8B%E5%BD%AC%E5%BD%AC*.:80
 :80/.*zh\.wikipedia\.org.*%E5%AE%8B%E5%BD%AC%E5%BD%AC
-#--Song Ren Qiong(chs/cht)
+#--Song Ren Qiong (zh-hans/hant)
 .*zh.wikipedia.org*%E5%AE%8B%E4%BB%BB%E7%A9%B7*.:80
 :80/.*zh\.wikipedia\.org.*%E5%AE%8B%E4%BB%BB%E7%A9%B7
 .*zh.wikipedia.org*%E5%AE%8B%E4%BB%BB%E7%AA%AE*.:80
@@ -4936,6 +4969,16 @@ zaobao.com:80/
 #--Su Jia Tun Shi Jian
 .*zh.wikipedia.org*%E8%8B%8F%E5%AE%B6%E5%B1%AF%E4%BA%8B%E4%BB%B6*.:80
 :80/.*zh\.wikipedia\.org.*%E8%8B%8F%E5%AE%B6%E5%B1%AF%E4%BA%8B%E4%BB%B6
+#--Sun Wen Guang
+.*zh.wikipedia.org:80/wiki/%E5%AD%99%E6%96%87%E5%B9%BF
+:80/.*zh\.wikipedia\.org/wiki/%E5%AD%99%E6%96%87%E5%B9%BF
+#--Tai Zi Dang
+.*zh.wikipedia.org:80/wiki/%E5%A4%AA%E5%AD%90%E5%85%9A
+:80/.*zh\.wikipedia\.org/wiki/%E5%A4%AA%E5%AD%90%E5%85%9A
+.*zh.wikipedia.org:80/zh/%E5%A4%AA%E5%AD%90%E5%85%9A
+:80/.*zh\.wikipedia\.org/zh/%E5%A4%AA%E5%AD%90%E5%85%9A
+.*zh.wikipedia.org:80/zh-cn/%E5%A4%AA%E5%AD%90%E5%85%9A
+:80/.*zh\.wikipedia\.org/zh-cn/%E5%A4%AA%E5%AD%90%E5%85%9A
 #--Tan Zuo Ren
 .*zh.wikipedia.org*%E8%B0%AD%E4%BD%9C%E4%BA%BA*.:80
 :80/.*zh\.wikipedia\.org.*%E8%B0%AD%E4%BD%9C%E4%BA%BA
@@ -4954,9 +4997,11 @@ zaobao.com:80/
 #--Tor
 .*zh.wikipedia.org:80/zh-cn/Tor
 :80/.*zh\.wikipedia\.org/zh-cn/Tor
-#--Tu Po Wang Luo Shen Cha (zhwb)
-.*zh.wikibooks.org*%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5*.:80
-:80/.*zh\.wikibooks\.org.*%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5
+#--Teitter
+.*zh.wikipedia.org:80/zh-hk/Twitter
+:80/.*zh\.wikipedia\.org/zh-hk/Twitter
+.*zh.wikipedia.org:80/wiki/Twitter
+:80/.*zh\.wikipedia\.org/wiki/Twitter
 #--Wang Jun Tao
 .*zh.wikipedia.org*%E7%8E%8B%E5%86%9B%E6%B6%9B*.:80
 :80/.*zh\.wikipedia\.org.*%E7%8E%8B%E5%86%9B%E6%B6%9B
@@ -5008,7 +5053,7 @@ zaobao.com:80/
 #--Wen Yun Song
 .*zh.wikipedia.org*%E6%B8%A9%E4%BA%91%E6%9D%BE*.:80
 :80/.*zh\.wikipedia\.org.*%E6%B8%A9%E4%BA%91%E6%9D%BE
-#--Wen Zi Yu (chs/cht)
+#--Wen Zi Yu (zh-hans/hant)
 .*zh.wikipedia.org:80/wiki/%E6%96%87%E5%AD%97%E7%8B%B1
 :80/.*zh\.wikipedia\.org/wiki/%E6%96%87%E5%AD%97%E7%8B%B1
 .*zh.wikipedia.org:80/wiki/%E6%96%87%E5%AD%97%E7%8D%84
@@ -5034,7 +5079,7 @@ zaobao.com:80/
 #--Xi Dan Min Zhu Qiang
 .*zh.wikipedia.org*%E8%A5%BF%E5%8D%95%E6%B0%91%E4%B8%BB%E5%A2%99*.:80
 :80/.*zh\.wikipedia\.org.*%E8%A5%BF%E5%8D%95%E6%B0%91%E4%B8%BB%E5%A2%99
-#--Xi Jin Ping - Traditional
+#--Xi Jin Ping (zh-hant)
 .*zh.wikipedia.org*%E7%BF%92%E8%BF%91%E5%B9%B3*.:80
 :80/.*zh\.wikipedia\.org.*%E7%BF%92%E8%BF%91%E5%B9%B3
 #--Xi Jin Ping
@@ -5052,6 +5097,9 @@ zaobao.com:80/
 #--Xie Yan Fei
 .*zh.wikipedia.org*%E8%B0%A2%E5%BD%A6%E9%A3%9E*.:80
 :80/.*zh\.wikipedia\.org.*%E8%B0%A2%E5%BD%A6%E9%A3%9E
+#--Xin Hao Nian
+.*zh.wikipedia.org*%E8%BE%9B%E7%81%8F%E5%B9%B4*.:80
+:80/.*zh\.wikipedia\.org.*%E8%BE%9B%E7%81%8F%E5%B9%B4
 #--Xin Wen Zi You Lue Duo Zhe
 .*zh.wikipedia.org*%E6%96%B0%E9%97%BB%E8%87%AA%E7%94%B1%E6%8E%A0%E5%A4%BA%E8%80%85*.:80
 :80/.*zh\.wikipedia\.org.*%E6%96%B0%E9%97%BB%E8%87%AA%E7%94%B1%E6%8E%A0%E5%A4%BA%E8%80%85
@@ -5103,16 +5151,16 @@ zaobao.com:80/
 #--Zhang Yu
 .*zh.wikipedia.org*%E5%BC%A0%E9%92%B0*.:80
 :80/.*zh\.wikipedia\.org.*%E5%BC%A0%E9%92%B0
-#--Zhang Yu - Traditional
+#--Zhang Yu (zh-hant)
 .*zh.wikipedia.org*%E5%BC%B5%E9%88%BA*.:80
 :80/.*zh\.wikipedia\.org.*%E5%BC%B5%E9%88%BA
-#--Zhao Zi Yang -- Traditional Chinese
+#--Zhao Zi Yang (zh-hant)
 .*zh.wikipedia.org*%E8%B6%99%E7%B4%AB%E9%99%BD*.:80
 :80/.*zh\.wikipedia\.org.*%E8%B6%99%E7%B4%AB%E9%99%BD
 #--Zhong Gong Zhong Yang Xuan Chuan Bu
 .*zh.wikipedia.org*%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%AE%A3%E4%BC%A0%E9%83%A8*.:80
 :80/.*zh\.wikipedia\.org.*%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%AE%A3%E4%BC%A0%E9%83%A8
-#--Zhong Guo Da Lu Feng Suo Wei Ji Mei Ti Shi Jian(s/t)
+#--Zhong Guo Da Lu Feng Suo Wei Ji Mei Ti Shi Jian (zh-hans/hant)
 .*zh.wikipedia.org*%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%B0%81%E9%94%81%E7%BB%B4%E5%9F%BA%E5%AA%92%E4%BD%93%E4%BA%8B%E4%BB%B6*.:80
 :80/.*zh\.wikipedia\.org.*%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%B0%81%E9%94%81%E7%BB%B4%E5%9F%BA%E5%AA%92%E4%BD%93%E4%BA%8B%E4%BB%B6
 .*zh.wikipedia.org*%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%B0%81%E9%94%81%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E4%BA%8B%E4%BB%B6*.:80
@@ -5126,7 +5174,7 @@ zaobao.com:80/
 #--Zhong Guo Gong Chan Dang(Zheng Zhi Yun Dong(Lie Biao))/(Zhong Yang Jun Shi Wei Yuan Hui)...
 .*zh.wikipedia.org*%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A*.:80
 :80/.*zh\.wikipedia\.org.*%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A
-#--Zhong Guo Gong Chan Dang -- Traditional Chinese
+#--Zhong Guo Gong Chan Dang (zh-hant)
 .*zh.wikipedia.org*%E4%B8%AD%E5%9C%8B%E5%85%B1%E7%94%A2%E9%BB*.:80
 :80/.*zh\.wikipedia\.org.*%E4%B8%AD%E5%9C%8B%E5%85%B1%E7%94%A2%E9%BB
 #--Zhong Guo Min Zhu Dang
@@ -5184,6 +5232,9 @@ zaobao.com:80/
 #--Zi You Ya Zhou
 .*zh.wikipedia.org*%E8%87%AA%E7%94%B1%E4%BA%9A%E6%B4%B2*.:80
 :80/.*zh\.wikipedia\.org.*%E8%87%AA%E7%94%B1%E4%BA%9A%E6%B4%B2
+#--Tu Po Wang Luo Shen Cha--Wikibooks
+.*zh.wikibooks.org*%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5*.:80
+:80/.*zh\.wikibooks\.org.*%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5
 #--Ling Ba Xian Zhang--WikiSource
 #--zh.wikisource.org/wiki/%E9%9B%B6%E5%85%AB%E5%AE%AA%E7%AB%A0
 #------------TW Gov-------------------------
