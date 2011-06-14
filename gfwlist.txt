@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: whhd9txtadGp24IYhwcxNA
+! Checksum: dQCjYXstlP2OWC9QWL5paw
 ! Expires: 6h
-! Last Modified: Fri, 10 Jun 2011 07:15:26 +0800
+! Last Modified: Sun, 12 Jun 2011 15:19:12 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -1925,6 +1925,7 @@ philly.com
 picturesocial.com
 .pidown.com
 .pign.net
+blog.pilotmoon.com
 .pin6.com
 ||pin6.com
 .ping.fm

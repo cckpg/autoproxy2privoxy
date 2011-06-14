@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: whhd9txtadGp24IYhwcxNA
+# Checksum: dQCjYXstlP2OWC9QWL5paw
 # Expires: 6h
-# Last Modified: Fri, 10 Jun 2011 07:15:26 +0800
+# Last Modified: Sun, 12 Jun 2011 15:19:12 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -2767,6 +2767,8 @@ www.oxid.it:80
 :80/.*\.pidown\.com
 .*.pign.net*.:80
 :80/.*\.pign\.net
+.*blog.pilotmoon.com*.:80
+:80/.*blog\.pilotmoon\.com
 .*.pin6.com*.:80
 :80/.*\.pin6\.com
 .pin6.com
