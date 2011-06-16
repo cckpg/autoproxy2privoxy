@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: dQCjYXstlP2OWC9QWL5paw
+! Checksum: Uyhu2jAC2pBp3MyzYQIsRw
 ! Expires: 6h
-! Last Modified: Sun, 12 Jun 2011 15:19:12 +0800
+! Last Modified: Thu, 16 Jun 2011 05:40:19 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -616,6 +616,7 @@ favstar.fm
 ||favstar.fm
 faydao.com/weblog
 fc2.com
+.fc2china.com
 shifeike.blog125.fc2blog.net
 video.fdbox.com
 ||fourface.nodesnoop.com
@@ -809,7 +810,7 @@ guancha.org
 .gzm.tv
 ||gzone-anime.info
 
-!------------Google Appspot-------
+!------------Google App Engine/Appspot-------
 .appspot.com
 ||appspot.com
 /^https?:\/\/[^\/]+appspot\.com/
@@ -1222,6 +1223,7 @@ google.com*%E6%88%91%E6%B2%A1%E6%9C%89%E6%95%8C%E4%BA%BA
 .google.*search*%E4%BF%9E%E6%AD%A3%E5%A3%B0
 !--Yue Hou Ji Fen
 .google.*%E9%98%85%E5%90%8E%E5%8D%B3%E7%84%9A
+!--Zeng Cheng
 !--Zhang De Jiang
 .google.*search*%E5%BC%A0%E5%BE%B7%E6%B1%9F
 !--Zhen Li Bu
@@ -1336,9 +1338,12 @@ hellotxt.com
 ||views.fm
 
 ||heungkongdiscuss.com
+app.heywire.com
 hidecloud.com/blog/2008/07/29/fuck-beijing-olympics.html
 .hidemyass.com
 ||hidemyass.com
+.hihiforum.com
+|http://hihiforum.com
 .higfw.com
 ||highrockmedia.com
 .hjclub.info
@@ -1387,6 +1392,7 @@ t.huhaitai.com
 ||hungerstrikeforaids.org
 ||huping.net
 ||hutianyi.net
+||hwinfo.com
 
 !--------------------------II--------------------------
 ||i2p2.de/
@@ -2157,6 +2163,7 @@ sexinsex.net
 !--IP of SexInSex
 67.220.91.18
 67.220.91.23
+.sfileydy.com
 .shangfang.org
 ||shangfang.org
 shapeservices.com
@@ -2422,7 +2429,7 @@ bbs.tuitui.info
 
 
 !-------------Tumblr-----
-||www.tumblr.com
+!--||www.tumblr.com
 @@||assets.tumblr.com
 @@||data.tumblr.com
 @@||media.tumblr.com
@@ -2433,6 +2440,7 @@ bbs.tuitui.info
 ||art-or-porn.com
 ||news.atebits.com
 ||tumblr.awflasher.com
+||badassjs.com
 ||basetimesheightdividedby2.com
 ||benjaminste.in
 ||blog.birdhouseapp.com
@@ -2701,6 +2709,8 @@ uncyclopedia.info
 ||uocn.org
 tor.updatestar.com
 .upload4u.info
+.uploaded.to/file
+|http://uploaded.to/file
 .uploadstation.com/file
 myshare.url.com.tw/
 ||urlborg.com
@@ -2719,6 +2729,7 @@ earthquake.usgs.gov/eqcenter/recenteqsww/Maps/10/105_30.php
 ||uyghurcongress.org
 
 !--------------------------VV--------------------------
+v70.us
 ||vaayoo.com
 ||value-domain.com
 .vanemu.cn
@@ -3267,6 +3278,8 @@ zh.wikipedia.org*Google%E5%AE%A1%E6%9F%A5
 !--Gu Ge Tui Chu Zhong Guo Shi Jian (Google)
 zh.wikipedia.org/zh-cn/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
 zh.wikipedia.org/wiki/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
+!--Guang Zhou Shi Xin Tang Shi Jian
+zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%96%B0%E5%A1%98%E4%BA%8B%E4%BB%B6
 !--Guo Bao
 zh.wikipedia.org*%E5%9B%BD%E4%BF%9D
 !--Guo Bo Xiong

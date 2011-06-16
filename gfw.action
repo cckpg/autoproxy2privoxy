@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: dQCjYXstlP2OWC9QWL5paw
+# Checksum: Uyhu2jAC2pBp3MyzYQIsRw
 # Expires: 6h
-# Last Modified: Sun, 12 Jun 2011 15:19:12 +0800
+# Last Modified: Thu, 16 Jun 2011 05:40:19 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -919,6 +919,8 @@ emule-ed2k.com:80
 :80/.*faydao\.com/weblog
 .*fc2.com*.:80
 :80/.*fc2\.com
+.*.fc2china.com*.:80
+:80/.*\.fc2china\.com
 .*shifeike.blog125.fc2blog.net*.:80
 :80/.*shifeike\.blog125\.fc2blog\.net
 .*video.fdbox.com*.:80
@@ -1217,7 +1219,7 @@ ff.im:80
 .*.gzm.tv*.:80
 :80/.*\.gzm\.tv
 .gzone-anime.info
-#------------Google Appspot-------
+#------------Google App Engine/Appspot-------
 .*.appspot.com*.:80
 :80/.*\.appspot\.com
 .appspot.com
@@ -1703,6 +1705,7 @@ ub0.cc:80
 #--Yue Hou Ji Fen
 .*.google.*%E9%98%85%E5%90%8E%E5%8D%B3%E7%84%9A*.:80
 :80/.*\.google\..*%E9%98%85%E5%90%8E%E5%8D%B3%E7%84%9A
+#--Zeng Cheng
 #--Zhang De Jiang
 .*.google.*search*%E5%BC%A0%E5%BE%B7%E6%B1%9F*.:80
 :80/.*\.google\..*search.*%E5%BC%A0%E5%BE%B7%E6%B1%9F
@@ -1863,11 +1866,16 @@ talkgadget.google.com:443/
 .twt.fm
 .views.fm
 .heungkongdiscuss.com
+.*app.heywire.com*.:80
+:80/.*app\.heywire\.com
 .*hidecloud.com:80/blog/2008/07/29/fuck-beijing-olympics\.html
 :80/.*hidecloud\.com/blog/2008/07/29/fuck-beijing-olympics\.html
 .*.hidemyass.com*.:80
 :80/.*\.hidemyass\.com
 .hidemyass.com
+.*.hihiforum.com*.:80
+:80/.*\.hihiforum\.com
+hihiforum.com:80
 .*.higfw.com*.:80
 :80/.*\.higfw\.com
 .highrockmedia.com
@@ -1946,6 +1954,7 @@ hk-pub.com:80/forum
 .hungerstrikeforaids.org
 .huping.net
 .hutianyi.net
+.hwinfo.com
 #--------------------------II--------------------------
 .i2p2.de
 .i2runner.com
@@ -3116,6 +3125,8 @@ rthk.org.hk:80
 :80/.*67\.220\.91\.18
 .*67.220.91.23*.:80
 :80/.*67\.220\.91\.23
+.*.sfileydy.com*.:80
+:80/.*\.sfileydy\.com
 .*.shangfang.org*.:80
 :80/.*\.shangfang\.org
 .shangfang.org
@@ -3526,13 +3537,14 @@ turbobit.net:80
 .turningtorso.com
 .tuxtraining.com
 #-------------Tumblr-----
-.www.tumblr.com
+#--||www.tumblr.com
 .301works.org
 .365singles.com.ar
 .all-that-is-interesting.com
 .art-or-porn.com
 .news.atebits.com
 .tumblr.awflasher.com
+.badassjs.com
 .basetimesheightdividedby2.com
 .benjaminste.in
 .blog.birdhouseapp.com
@@ -3872,6 +3884,9 @@ udn.com:80
 :80/.*tor\.updatestar\.com
 .*.upload4u.info*.:80
 :80/.*\.upload4u\.info
+.*.uploaded.to:80/file
+:80/.*\.uploaded\.to/file
+uploaded.to:80/file
 .*.uploadstation.com:80/file
 :80/.*\.uploadstation\.com/file
 .*myshare.url.com.tw:80/
@@ -3898,6 +3913,8 @@ uushare.com:80
 :80/.*\.uwants\.net
 .uyghurcongress.org
 #--------------------------VV--------------------------
+.*v70.us*.:80
+:80/.*v70\.us
 .vaayoo.com
 .value-domain.com
 .*.vanemu.cn*.:80
@@ -4739,6 +4756,9 @@ zaobao.com:80/
 :80/.*zh\.wikipedia\.org/zh-cn/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
 .*zh.wikipedia.org:80/wiki/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
 :80/.*zh\.wikipedia\.org/wiki/%E8%B0%B7%E6%AD%8C%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E4%BA%8B%E4%BB%B6
+#--Guang Zhou Shi Xin Tang Shi Jian
+.*zh.wikipedia.org:80/wiki/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%96%B0%E5%A1%98%E4%BA%8B%E4%BB%B6
+:80/.*zh\.wikipedia\.org/wiki/%E5%B9%BF%E5%B7%9E%E5%B8%82%E6%96%B0%E5%A1%98%E4%BA%8B%E4%BB%B6
 #--Guo Bao
 .*zh.wikipedia.org*%E5%9B%BD%E4%BF%9D*.:80
 :80/.*zh\.wikipedia\.org.*%E5%9B%BD%E4%BF%9D
