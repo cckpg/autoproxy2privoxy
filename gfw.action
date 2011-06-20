@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: Uyhu2jAC2pBp3MyzYQIsRw
+# Checksum: r047uTvHgkiHVEYZkOiyag
 # Expires: 6h
-# Last Modified: Thu, 16 Jun 2011 05:40:19 +0800
+# Last Modified: Fri, 17 Jun 2011 05:39:07 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -4387,16 +4387,14 @@ youporn.com:80
 #--------------------------ZZ--------------------------
 .zannel.com
 .tap11.com
-zaobao.com:80/
-.*luntan.zaobao.com:80/
-:80/.*luntan\.zaobao\.com/
-.*.zaobao.com:80/special/china/cnpol/pages2
-:80/.*\.zaobao\.com/special/china/cnpol/pages2
-.*.zaobao.com:80/special/sitemap
-:80/.*\.zaobao\.com/special/sitemap
-.*.zaobao.com.sg*.:80
-:80/.*\.zaobao\.com\.sg
-.zaobao.com.sg
+.*.zaobao.com*.:80
+:80/.*\.zaobao\.com
+zaobao.com:80
+#--luntan.zaobao.com
+#--.zaobao.com/special/china/cnpol/pages2
+#--.zaobao.com/special/sitemap
+#--.zaobao.com.sg
+#--||zaobao.com.sg
 .*.zaozon.com*.:80
 :80/.*\.zaozon\.com
 .zarias.com
@@ -4628,8 +4626,6 @@ zaobao.com:80/
 .*en.wikipedia.org:80/wiki/Tibetan_independence_movement
 :80/.*en\.wikipedia\.org/wiki/Tibetan_independence_movement
 #-------------zh.Wikipedia----------
-.*zh.m.wikipedia.org*.:80
-:80/.*zh\.m\.wikipedia\.org
 .*zh.wikipedia.org:80/wiki/Special:Contributions
 :80/.*zh\.wikipedia\.org/wiki/Special:Contributions
 .*zh.wikisource.org*.:80
