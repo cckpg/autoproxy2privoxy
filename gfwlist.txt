@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: r047uTvHgkiHVEYZkOiyag
+! Checksum: YadCj9kCk0r+Oi6ntrZucw
 ! Expires: 6h
-! Last Modified: Fri, 17 Jun 2011 05:39:07 +0800
+! Last Modified: Thu, 23 Jun 2011 20:18:02 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -105,6 +105,7 @@ aladding.com
 ||aladding.com
 ||alasbarricadas.org
 ||notes.alexdong.com
+alexlur.org"
 ||alkasir.com
 bbs.allhabit.com
 alliance.org.hk
@@ -1324,11 +1325,15 @@ hellotxt.com
 ||heroku.com
 ||awardwinningfjords.com
 ||futureme.org
+||getcloudapp.com
+||cl.ly
+@@||f.cl.ly
 ||getsmartlinks.com
 ||lesscss.org
 ||list.ly
 ||overlapr.com
 ||peerpong.com
+||pose.com
 ||samsoff.es
 ||sendoid.com
 ||speckleapp.com
@@ -1566,6 +1571,7 @@ abitno.linpie.com/use-ipv6-to-fuck-gfw
 linuxtoy.org/archives/installing-west-chamber-on-ubuntu
 .lipuman.com
 ||liudejun.com
+.liuhanyu.com
 .liujianshu.com
 ||liujianshu.com
 liuxiaotong.com
@@ -1625,6 +1631,7 @@ www.macrovpn.com
 ||mad-ar.ch
 .maiio.net
 mail-archive.com
+malaysiakini.com/cn
 ||makemymood.com
 ||marines.mil
 markmail.org*message
@@ -1743,6 +1750,7 @@ old.nabble.com
 ||navicat.com
 .nakido.com
 ||nakido.com
+.naol.ca
 cyberghost.natado.com
 nccwatch.org.tw
 .nch.com.tw
@@ -2025,6 +2033,7 @@ psiphon.ca
 ||pullfolio.com
 ||pureconcepts.net
 ||purepdf.com
+.putlocker.com/file
 pwned.com
 .python.com.tw
 |http://python.com.tw
@@ -2076,6 +2085,8 @@ rcinet.ca
 .recordhistory.org
 blog.redren.com/2009/01/jap-let-you-use-online-stealth
 .redtube.com
+referer.us
+||referer.us
 ||reflectivecode.com
 renminbao.com
 .renyurenquan.org
@@ -2518,6 +2529,7 @@ bbs.tuitui.info
 ||tumblweed.org
 ||status.twhirl.org
 !-||status.twitter.com
+||blog.usa.gov
 ||photo.utom.us
 ||v-state.org
 ||wellplacedpixels.com
@@ -3197,6 +3209,7 @@ en.wikipedia.org/wiki/Tibetan_independence_movement
 
 !-------------zh.Wikipedia----------
 zh.wikipedia.org/wiki/Special:Contributions
+zh.m.wikipedia.org
 zh.wikisource.org
 !--512 Da Di Zhen
 zh.wikipedia.org*512%E5%A4%A7%E5%9C%B0%E9%9C%87
