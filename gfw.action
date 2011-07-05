@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: oMRxtl35G/CdwnuCO05JCw
+# Checksum: e749Tj6aS5RQheBxE2ogmQ
 # Expires: 6h
-# Last Modified: Sat, 02 Jul 2011 15:32:07 +0800
+# Last Modified: Sun, 03 Jul 2011 17:58:11 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -1118,7 +1118,9 @@ ff.im:80
 .*.gaoming.net*.:80
 :80/.*\.gaoming\.net
 .gaoming.net
-.gaopi.net
+.*.gaopi.net*.:80
+:80/.*\.gaopi\.net
+gaopi.net:80
 .gappp.org
 .*gardennetworks.com*.:80
 :80/.*gardennetworks\.com
@@ -2356,7 +2358,8 @@ lookatgame.com:80
 .meetup.com
 .*lich355.megabyet.net:80/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%BF%81%E7%A7%BB%E8%AE%B0
 :80/.*lich355\.megabyet\.net/%E7%BD%91%E7%BB%9C%E7%A5%9E%E5%85%BD%E5%8F%A4%E9%B8%BD%E8%BF%81%E7%A7%BB%E8%AE%B0
-.megaporn.com
+.*.megaporn.com*.:80
+:80/.*\.megaporn\.com
 .megarotic.com
 .megaupload.com
 .*.megaupload.com:80/\?d=
