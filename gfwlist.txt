@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: e749Tj6aS5RQheBxE2ogmQ
+! Checksum: cShtF2Pg4XrXnTsbh2fM5g
 ! Expires: 6h
-! Last Modified: Sun, 03 Jul 2011 17:58:11 +0800
+! Last Modified: Fri, 08 Jul 2011 05:21:58 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -144,8 +144,10 @@ video.aol.com
 www.aolnews.com
 .apigee.com
 ||apigee.com
-itunes.apple.com*358801284
-itunes.apple.com*375584677	
+itunes.apple.*358801284
+itunes.apple.*364147881
+itunes.apple.*375584677
+
 ||appledaily.com.tw
 .archive.org
 ||archive.org
@@ -225,6 +227,7 @@ beijingspring.com
 bjzc.org
 ||bjzc.org/
 ||blackra1n.com
+||blogearth.org
 ||limera1n.com
 ||limesn0w.com
 ||purplera1n.com
@@ -1172,10 +1175,14 @@ google*search*q=cache
 .google.*search*%E5%9B%BD%E5%AE%B6%E9%98%B2%E7%81%AB%E5%A2%99
 !--Ji Zhe Wu Jiang Jie
 .google.*%E8%AE%B0%E8%80%85%E6%97%A0%E7%96%86%E7%95%8C
+!--Jia bao
+.google.*%E5%AE%B6%E5%AE%9D
 !--Jiang Ze Min
 .google.*search*%E6%B1%9F%E6%B3%BD%E6%B0%91
 !--Jin Tao
 .google.*/search*%E9%94%A6%E6%B6%9B
+!--Jin Ping
+.google.*%E8%BF%91%E5%B9%B3
 !--Ku Xing
 search*%E9%85%B7%E5%88%91
 !--Liu Qi
@@ -1234,6 +1241,8 @@ google.com*%E6%88%91%E6%B2%A1%E6%9C%89%E6%95%8C%E4%BA%BA
 .google.*search*%E4%BF%9E%E6%AD%A3%E5%A3%B0
 !--Yue Hou Ji Fen
 .google.*%E9%98%85%E5%90%8E%E5%8D%B3%E7%84%9A
+!--Ze Min
+.google.*%E6%B3%BD%E6%B0%91
 !--Zeng Cheng
 !--Zhang De Jiang
 .google.*search*%E5%BC%A0%E5%BE%B7%E6%B1%9F
@@ -1261,6 +1270,8 @@ google.com*%E6%88%91%E6%B2%A1%E6%9C%89%E6%95%8C%E4%BA%BA
 !--Jia
 .google.com/m*%E8%B4%BE
 .google.*/search*%E8%B4%BE
+!--Jiang
+.google.*%E6%B1%9F
 !--Li
 .google.com/m*%E6%9D%8E
 .google.*/search*%E6%9D%8E
@@ -1282,8 +1293,9 @@ google.com*%E6%88%91%E6%B2%A1%E6%9C%89%E6%95%8C%E4%BA%BA
 .google.*/search*%E5%91%A8
 
 !-------------Google.other-----
-|https://docs.google.com/
-|https://groups.google.com/
+|https://docs.google.com
+|https://groups.google.com
+|https://plus.google.com
 .google.com/moderator
 .google.com%2Fmoderator
 .google.com/reader/view/feed
@@ -2329,6 +2341,7 @@ blog.syx86.cn/2009/09/puff
 .t35.com
 .t66y.com
 ||t66y.com
+tabtter.jp
 .tacem.org
 tagwalk.com
 ||tagwalk.com
@@ -2403,6 +2416,7 @@ tibetfund.org
 ||tkcs-collins.com
 ||tkforum.tk
 tldp.org
+|http://tmi.me
 .tnaflix.com
 ||tnaflix.com
 togetter.com
@@ -3377,6 +3391,11 @@ zh.wikipedia.org*%E6%9D%8E%E9%95%B7%E6%98%A5
 zh.wikipedia.org*%E6%9D%8E%E6%B4%AA%E5%BF%97
 !--Li Ke Qiang
 zh.wikipedia.org*%E6%9D%8E%E5%85%8B%E5%BC%BA
+!--Li Peng
+zh.wikipedia.org/wiki/%E6%9D%8E%E9%B9%8F
+zh.wikipedia.org/zh/%E6%9D%8E%E9%B9%8F
+zh.wikipedia.org/zh-hk/%E6%9D%8E%E9%B9%8F
+zh.wikipedia.org/zh-tw/%E6%9D%8E%E9%B9%8F
 !--Li Rui Huan
 zh.wikipedia.org*%E6%9D%8E%E7%91%9E%E7%8E%AF
 !--Li Shen Zhi

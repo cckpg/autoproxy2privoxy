@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: e749Tj6aS5RQheBxE2ogmQ
+# Checksum: cShtF2Pg4XrXnTsbh2fM5g
 # Expires: 6h
-# Last Modified: Sun, 03 Jul 2011 17:58:11 +0800
+# Last Modified: Fri, 08 Jul 2011 05:21:58 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -209,10 +209,12 @@ antiwave.net:80
 .*.apigee.com*.:80
 :80/.*\.apigee\.com
 .apigee.com
-.*itunes.apple.com*358801284*.:80
-:80/.*itunes\.apple\.com.*358801284
-.*itunes.apple.com*375584677*.:80
-:80/.*itunes\.apple\.com.*375584677
+.*itunes.apple.*358801284*.:80
+:80/.*itunes\.apple\..*358801284
+.*itunes.apple.*364147881*.:80
+:80/.*itunes\.apple\..*364147881
+.*itunes.apple.*375584677*.:80
+:80/.*itunes\.apple\..*375584677
 .appledaily.com.tw
 .*.archive.org*.:80
 :80/.*\.archive\.org
@@ -329,6 +331,7 @@ bitsnoop.com:80
 :80/.*bjzc\.org
 .bjzc.org
 .blackra1n.com
+.blogearth.org
 .limera1n.com
 .limesn0w.com
 .purplera1n.com
@@ -1634,12 +1637,18 @@ ub0.cc:80
 #--Ji Zhe Wu Jiang Jie
 .*.google.*%E8%AE%B0%E8%80%85%E6%97%A0%E7%96%86%E7%95%8C*.:80
 :80/.*\.google\..*%E8%AE%B0%E8%80%85%E6%97%A0%E7%96%86%E7%95%8C
+#--Jia bao
+.*.google.*%E5%AE%B6%E5%AE%9D*.:80
+:80/.*\.google\..*%E5%AE%B6%E5%AE%9D
 #--Jiang Ze Min
 .*.google.*search*%E6%B1%9F%E6%B3%BD%E6%B0%91*.:80
 :80/.*\.google\..*search.*%E6%B1%9F%E6%B3%BD%E6%B0%91
 #--Jin Tao
 .*.google.*:80/search.*%E9%94%A6%E6%B6%9B
 :80/.*\.google\..*/search.*%E9%94%A6%E6%B6%9B
+#--Jin Ping
+.*.google.*%E8%BF%91%E5%B9%B3*.:80
+:80/.*\.google\..*%E8%BF%91%E5%B9%B3
 #--Ku Xing
 .*search*%E9%85%B7%E5%88%91*.:80
 :80/.*search.*%E9%85%B7%E5%88%91
@@ -1727,6 +1736,9 @@ ub0.cc:80
 #--Yue Hou Ji Fen
 .*.google.*%E9%98%85%E5%90%8E%E5%8D%B3%E7%84%9A*.:80
 :80/.*\.google\..*%E9%98%85%E5%90%8E%E5%8D%B3%E7%84%9A
+#--Ze Min
+.*.google.*%E6%B3%BD%E6%B0%91*.:80
+:80/.*\.google\..*%E6%B3%BD%E6%B0%91
 #--Zeng Cheng
 #--Zhang De Jiang
 .*.google.*search*%E5%BC%A0%E5%BE%B7%E6%B1%9F*.:80
@@ -1767,6 +1779,9 @@ ub0.cc:80
 :80/.*\.google\.com/m.*%E8%B4%BE
 .*.google.*:80/search.*%E8%B4%BE
 :80/.*\.google\..*/search.*%E8%B4%BE
+#--Jiang
+.*.google.*%E6%B1%9F*.:80
+:80/.*\.google\..*%E6%B1%9F
 #--Li
 .*.google.com:80/m.*%E6%9D%8E
 :80/.*\.google\.com/m.*%E6%9D%8E
@@ -1799,8 +1814,9 @@ ub0.cc:80
 .*.google.*:80/search.*%E5%91%A8
 :80/.*\.google\..*/search.*%E5%91%A8
 #-------------Google.other-----
-docs.google.com:443/
-groups.google.com:443/
+docs.google.com:443
+groups.google.com:443
+plus.google.com:443
 .*.google.com:80/moderator
 :80/.*\.google\.com/moderator
 .*.google.com%2Fmoderator*.:80
@@ -3391,6 +3407,8 @@ strongvpn.com:80
 .*.t66y.com*.:80
 :80/.*\.t66y\.com
 .t66y.com
+.*tabtter.jp*.:80
+:80/.*tabtter\.jp
 .*.tacem.org*.:80
 :80/.*\.tacem\.org
 .*tagwalk.com*.:80
@@ -3504,6 +3522,7 @@ thisav.com:80
 .tkforum.tk
 .*tldp.org*.:80
 :80/.*tldp\.org
+tmi.me:80
 .*.tnaflix.com*.:80
 :80/.*\.tnaflix\.com
 .tnaflix.com
@@ -4908,6 +4927,15 @@ zaobao.com:80
 #--Li Ke Qiang
 .*zh.wikipedia.org*%E6%9D%8E%E5%85%8B%E5%BC%BA*.:80
 :80/.*zh\.wikipedia\.org.*%E6%9D%8E%E5%85%8B%E5%BC%BA
+#--Li Peng
+.*zh.wikipedia.org:80/wiki/%E6%9D%8E%E9%B9%8F
+:80/.*zh\.wikipedia\.org/wiki/%E6%9D%8E%E9%B9%8F
+.*zh.wikipedia.org:80/zh/%E6%9D%8E%E9%B9%8F
+:80/.*zh\.wikipedia\.org/zh/%E6%9D%8E%E9%B9%8F
+.*zh.wikipedia.org:80/zh-hk/%E6%9D%8E%E9%B9%8F
+:80/.*zh\.wikipedia\.org/zh-hk/%E6%9D%8E%E9%B9%8F
+.*zh.wikipedia.org:80/zh-tw/%E6%9D%8E%E9%B9%8F
+:80/.*zh\.wikipedia\.org/zh-tw/%E6%9D%8E%E9%B9%8F
 #--Li Rui Huan
 .*zh.wikipedia.org*%E6%9D%8E%E7%91%9E%E7%8E%AF*.:80
 :80/.*zh\.wikipedia\.org.*%E6%9D%8E%E7%91%9E%E7%8E%AF
