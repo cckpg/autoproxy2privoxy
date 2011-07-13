@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: cShtF2Pg4XrXnTsbh2fM5g
+! Checksum: t4NZNCxorlkI+YL8P9O++g
 ! Expires: 6h
-! Last Modified: Fri, 08 Jul 2011 05:21:58 +0800
+! Last Modified: Mon, 11 Jul 2011 13:59:50 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -12,6 +12,8 @@
 ||1-apple.com.tw
 .12bet.com
 ||12bet.com
+.12vpn.com
+||12vpn.com
 141hongkong.com/forum
 t.16class.cn
 173ng.com
@@ -222,6 +224,7 @@ beijingspring.com
 ||bill2-software.com
 ||billywr.com
 .bitshare.com/files
+http://bitshare.com/files
 .bitsnoop.com
 |http://bitsnoop.com
 bjzc.org
@@ -660,6 +663,7 @@ finler.net
 ||falsefire.com
 fleshbot.com
 
+.flickr.com/photos/46231077@N06
 .flickr.com/groups/aiweiwei
 .flickr.com/photos/digitalboy100
 .flickr.com/photos/fzhenghu
@@ -1402,6 +1406,7 @@ hnjhj.com
 ||derekhsu.homeip.net
 hongmeimei.com
 hootsuite.com
+||hootsuite.com
 hotfile.com/dl
 hotpot.hk
 ||hotspotshield.com
@@ -2341,6 +2346,8 @@ blog.syx86.cn/2009/09/puff
 .t35.com
 .t66y.com
 ||t66y.com
+.taa-usa.org
+|http://taa-usa.org
 tabtter.jp
 .tacem.org
 tagwalk.com
@@ -2527,12 +2534,14 @@ bbs.tuitui.info
 ||blog.kl.am
 ||blog.klip.me
 ||t.kun.im
+||blog.lightbox.com
 ||littlebigdetails.com
 ||lovequicksilver.com
 ||lyricsquote.com
 ||madmenunbuttoned.com
 ||marco.org
 ||minimalmac.com
+||mixedmedialabs.com
 ||modfetish.com
 ||blog.mongodb.org
 ||navigeaters.com
@@ -3208,6 +3217,8 @@ search*%E6%B4%97%E8%84%91
 search*%E6%96%B0%E5%94%90%E4%BA%BA
 !--Xin Yu Si
 search*%E6%96%B0%E8%AF%AD%E4%B8%9D
+!--Xue Yun
+search*%E5%AD%A6%E8%BF%90
 !--Zhao Zi Yang
 %E8%B5%B5%E7%B4%AB%E9%98%B3
 !--Zhong Gong

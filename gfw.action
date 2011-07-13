@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: cShtF2Pg4XrXnTsbh2fM5g
+# Checksum: t4NZNCxorlkI+YL8P9O++g
 # Expires: 6h
-# Last Modified: Fri, 08 Jul 2011 05:21:58 +0800
+# Last Modified: Mon, 11 Jul 2011 13:59:50 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -14,6 +14,9 @@
 .*.12bet.com*.:80
 :80/.*\.12bet\.com
 .12bet.com
+.*.12vpn.com*.:80
+:80/.*\.12vpn\.com
+.12vpn.com
 .*141hongkong.com:80/forum
 :80/.*141hongkong\.com/forum
 .*t.16class.cn*.:80
@@ -324,6 +327,8 @@ bbc.in:80
 .billywr.com
 .*.bitshare.com:80/files
 :80/.*\.bitshare\.com/files
+bitshare.com:80/files
+:80/.*http://bitshare\.com/files
 .*.bitsnoop.com*.:80
 :80/.*\.bitsnoop\.com
 bitsnoop.com:80
@@ -991,6 +996,8 @@ files2me.com:80
 .falsefire.com
 .*fleshbot.com*.:80
 :80/.*fleshbot\.com
+.*.flickr.com:80/photos/46231077@N06
+:80/.*\.flickr\.com/photos/46231077@N06
 .*.flickr.com:80/groups/aiweiwei
 :80/.*\.flickr\.com/groups/aiweiwei
 .*.flickr.com:80/photos/digitalboy100
@@ -1971,6 +1978,7 @@ hk-pub.com:80/forum
 :80/.*hongmeimei\.com
 .*hootsuite.com*.:80
 :80/.*hootsuite\.com
+.hootsuite.com
 .*hotfile.com:80/dl
 :80/.*hotfile\.com/dl
 .*hotpot.hk*.:80
@@ -3407,6 +3415,9 @@ strongvpn.com:80
 .*.t66y.com*.:80
 :80/.*\.t66y\.com
 .t66y.com
+.*.taa-usa.org*.:80
+:80/.*\.taa-usa\.org
+taa-usa.org:80
 .*tabtter.jp*.:80
 :80/.*tabtter\.jp
 .*.tacem.org*.:80
@@ -3654,12 +3665,14 @@ turbobit.net:80
 .blog.kl.am
 .blog.klip.me
 .t.kun.im
+.blog.lightbox.com
 .littlebigdetails.com
 .lovequicksilver.com
 .lyricsquote.com
 .madmenunbuttoned.com
 .marco.org
 .minimalmac.com
+.mixedmedialabs.com
 .modfetish.com
 .blog.mongodb.org
 .navigeaters.com
@@ -4642,6 +4655,9 @@ zaobao.com:80
 #--Xin Yu Si
 .*search*%E6%96%B0%E8%AF%AD%E4%B8%9D*.:80
 :80/.*search.*%E6%96%B0%E8%AF%AD%E4%B8%9D
+#--Xue Yun
+.*search*%E5%AD%A6%E8%BF%90*.:80
+:80/.*search.*%E5%AD%A6%E8%BF%90
 #--Zhao Zi Yang
 .*%E8%B5%B5%E7%B4%AB%E9%98%B3*.:80
 :80/.*%E8%B5%B5%E7%B4%AB%E9%98%B3
