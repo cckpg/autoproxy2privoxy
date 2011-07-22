@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: t4NZNCxorlkI+YL8P9O++g
+# Checksum: 5TRSoTrVhFk2PgsbJE1XGw
 # Expires: 6h
-# Last Modified: Mon, 11 Jul 2011 13:59:50 +0800
+# Last Modified: Fri, 22 Jul 2011 04:38:37 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -4252,6 +4252,8 @@ waiwaier.com:80
 chinese.wsj.com:80/gb
 .*.wtfpeople.com*.:80
 :80/.*\.wtfpeople\.com
+.*.wuala.com*.:80
+:80/.*\.wuala\.com
 .*wuerkaixi.com*.:80
 :80/.*wuerkaixi\.com
 .*wufi.org.tw*.:80
@@ -4319,8 +4321,8 @@ xing.com:80
 :80/.*vlog\.xuite\.net
 .*xuzhiyong.net*.:80
 :80/.*xuzhiyong\.net
-.*xvediox.com*.:80
-:80/.*xvediox\.com
+.*xvedios.com*.:80
+:80/.*xvedios\.com
 .*.xvideos.com*.:80
 :80/.*\.xvideos\.com
 .*.xxbbx.com*.:80

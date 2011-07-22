@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: t4NZNCxorlkI+YL8P9O++g
+! Checksum: 5TRSoTrVhFk2PgsbJE1XGw
 ! Expires: 6h
-! Last Modified: Mon, 11 Jul 2011 13:59:50 +0800
+! Last Modified: Fri, 22 Jul 2011 04:38:37 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -2967,6 +2967,7 @@ wretch.cc
 .chinese.wsj.com/gb
 |http://chinese.wsj.com/gb
 .wtfpeople.com
+.wuala.com
 wuerkaixi.com
 wufi.org.tw
 wujie.net
@@ -3006,7 +3007,7 @@ xmovies.com
 blog.xuite.net
 vlog.xuite.net
 xuzhiyong.net
-xvediox.com
+xvedios.com
 .xvideos.com
 .xxbbx.com
 ||xxxx.com.au
