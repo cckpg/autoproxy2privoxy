@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: 5TRSoTrVhFk2PgsbJE1XGw
+# Checksum: tipBvSzBms5KKFXJs36aNg
 # Expires: 6h
-# Last Modified: Fri, 22 Jul 2011 04:38:37 +0800
+# Last Modified: Sat, 23 Jul 2011 22:35:37 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -294,8 +294,8 @@ bbc.in:80
 :80/.*bbsland\.com
 .*.bcc.com.tw:80/board
 :80/.*\.bcc\.com\.tw/board
-.*blog.bcchinese.net*.:80
-:80/.*blog\.bcchinese\.net
+.*.bcchinese.net*.:80
+:80/.*\.bcchinese\.net
 .*.bebo.com*.:80
 :80/.*\.bebo\.com
 .bebo.com
@@ -1581,6 +1581,8 @@ ub0.cc:80
 :80/.*%2Fsearch%3Fq%3Dcache
 .*google*search*q=cache*.:80
 :80/.*google.*search.*q=cache
+.*.google.*301*.:80
+:80/.*\.google\..*301
 .*.google.*search*8964*.:80
 :80/.*\.google\..*search.*8964
 .*.google.*gfw*.:80
@@ -2654,6 +2656,7 @@ nobelprize.org:80
 :80/.*\.nps\.gov
 .*.nrk.no*.:80
 :80/.*\.nrk\.no
+.nrk.no
 .*bbs.nsysu.edu.tw*.:80
 :80/.*bbs\.nsysu\.edu\.tw
 .*ntdtv.com*.:80
