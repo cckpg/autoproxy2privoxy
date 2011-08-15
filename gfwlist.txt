@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: tipBvSzBms5KKFXJs36aNg
+! Checksum: 7auoTK7NsS1lpikqmf2AZQ
 ! Expires: 6h
-! Last Modified: Sat, 23 Jul 2011 22:35:37 +0800
+! Last Modified: Sat, 13 Aug 2011 23:48:47 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -2052,6 +2052,7 @@ prisoner-state-secret-journal-premier
 privatepaste.com
 ||privatepaste.com
 ||prosiben.de
+api.proxlet.com
 ||proxomitron.info
 proxy.org
 .proxypy.net
