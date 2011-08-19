@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: 7auoTK7NsS1lpikqmf2AZQ
+# Checksum: vBkXJ6mxhnh/U1nu9UFZtA
 # Expires: 6h
-# Last Modified: Sat, 13 Aug 2011 23:48:47 +0800
+# Last Modified: Fri, 19 Aug 2011 14:57:08 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -3659,6 +3659,7 @@ turbobit.net:80
 .blog.hotpotato.com
 .ialmostlaugh.com
 .blog.ifttt.com
+.blog.instagram.com
 .blog.instapaper.com
 .interestinglaugh.com
 .blog.iphone-dev.org
