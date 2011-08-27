@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: vBkXJ6mxhnh/U1nu9UFZtA
+! Checksum: ljGV+joUuQClamyO8mZOPg
 ! Expires: 6h
-! Last Modified: Fri, 19 Aug 2011 14:57:08 +0800
+! Last Modified: Tue, 23 Aug 2011 18:53:05 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -2497,7 +2497,7 @@ bbs.tuitui.info
 ||bonjourlesgeeks.com
 ||bookshelfporn.com
 ||blog.boxcar.io
-||blog.bit.ly
+||blog.bitly.com
 ||chevronwp7.com
 ||clientsfromhell.net
 ||codeboxapp.com
