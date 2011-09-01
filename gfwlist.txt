@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: ljGV+joUuQClamyO8mZOPg
+! Checksum: PSNlws+1ybFzNsJjjKc5Tg
 ! Expires: 6h
-! Last Modified: Tue, 23 Aug 2011 18:53:05 +0800
+! Last Modified: Tue, 30 Aug 2011 21:49:20 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -265,6 +265,8 @@ boltbrowser.com/download
 .bot.nu
 .bowenpress.com
 ||bowenpress.com
+dl.box.net
+||dl.box.net
 boxun.com
 ||boxun.com
 .boxun.tv
@@ -1899,9 +1901,11 @@ m.oulove.org
 oursogo.com
 share.ovi.com/media
 .ow.ly
-||ow.ly
-||ht.ly
-||mash.to/
+|http://ow.ly
+|http://owl.li
+|http://ht.ly
+|http://htl.li
+|http://mash.to
 www.owind.com
 |http://www.oxid.it
 .ozchinese.com/bbs

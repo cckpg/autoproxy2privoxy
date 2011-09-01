@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: ljGV+joUuQClamyO8mZOPg
+# Checksum: PSNlws+1ybFzNsJjjKc5Tg
 # Expires: 6h
-# Last Modified: Tue, 23 Aug 2011 18:53:05 +0800
+# Last Modified: Tue, 30 Aug 2011 21:49:20 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -388,6 +388,9 @@ blogtd.org:80
 .*.bowenpress.com*.:80
 :80/.*\.bowenpress\.com
 .bowenpress.com
+.*dl.box.net*.:80
+:80/.*dl\.box\.net
+.dl.box.net
 .*boxun.com*.:80
 :80/.*boxun\.com
 .boxun.com
@@ -2731,9 +2734,11 @@ nobelprize.org:80
 :80/.*share\.ovi\.com/media
 .*.ow.ly*.:80
 :80/.*\.ow\.ly
-.ow.ly
-.ht.ly
-.mash.to
+ow.ly:80
+owl.li:80
+ht.ly:80
+htl.li:80
+mash.to:80
 .*www.owind.com*.:80
 :80/.*www\.owind\.com
 www.oxid.it:80
