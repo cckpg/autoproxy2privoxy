@@ -8,7 +8,7 @@ re_start='^\|http(s?)://([^/\]+)([^\]*)'    # |https://ssl.example.com/foo*bar  
 re_regex='^/(.*)/$'                         # /^https?:\/\/[^\/]+example\.com/  .*example.com
 re_negate='^@@([^@].*)'                     # @@||example.com                   .example.com (NO PROXY)
 re_comment='^!(.*)'                         # !Foo Bar                          #Foo Bar (comment)
-re_keyword='^(https?://|/)?([^/\]+)([^\]*)' # .example.com/foo*bar              .*.example.com:80/foo.*bar, :80/.*\.example\.com/foo.*bar (keyword filtering is HTTP only)
+re_keyword='^(https?://|/)?([^/|\][^/\]*)([^\]*)' # .example.com/foo*bar              .*.example.com:80/foo.*bar, :80/.*\.example\.com/foo.*bar (keyword filtering is HTTP only)
 
 # Regular expression to shell expansion is lossy;
 # this is the only regex used in practice, so far.
