@@ -1,7 +1,7 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: PSNlws+1ybFzNsJjjKc5Tg
+# Checksum: h+kQZGsMBABSH5ZF4JgJCA
 # Expires: 6h
-# Last Modified: Tue, 30 Aug 2011 21:49:20 +0800
+# Last Modified: Thu, 01 Sep 2011 20:40:50 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -2468,6 +2468,7 @@ lookatgame.com:80
 .*.mobypicture.com*.:80
 :80/.*\.mobypicture\.com
 moby.to:80
+.mog.com
 .mondex.org
 .*c1522.mooo.com*.:80
 :80/.*c1522\.mooo\.com

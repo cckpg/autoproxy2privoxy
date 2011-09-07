@@ -1,7 +1,7 @@
 [AutoProxy 0.2.9]
-! Checksum: PSNlws+1ybFzNsJjjKc5Tg
+! Checksum: h+kQZGsMBABSH5ZF4JgJCA
 ! Expires: 6h
-! Last Modified: Tue, 30 Aug 2011 21:49:20 +0800
+! Last Modified: Thu, 01 Sep 2011 20:40:50 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -1729,6 +1729,7 @@ plurktop.mmdays.com
 ||mobileways.de
 .mobypicture.com
 |http://moby.to
+||mog.com
 ||mondex.org
 c1522.mooo.com
 bbs.morbell.com
