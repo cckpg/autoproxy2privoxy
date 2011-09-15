@@ -1,7 +1,8 @@
 [AutoProxy 0.2.9]
-! Checksum: h+kQZGsMBABSH5ZF4JgJCA
+! Checksum: Ghl9qZBinlST4vO30wAMtA
+! Checksum: 
 ! Expires: 6h
-! Last Modified: Thu, 01 Sep 2011 20:40:50 +0800
+! Last Modified: Wed, 07 Sep 2011 20:00:35 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -1505,6 +1506,7 @@ yy.iyatou.com/archives/1042
 
 !--------------------------JJ--------------------------
 blog.jackjia.com
+williamlong.jaiku.com
 jeanyim.com
 ||jgoodies.com
 ||jiaoyou8.com

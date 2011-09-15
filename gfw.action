@@ -1,7 +1,8 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: h+kQZGsMBABSH5ZF4JgJCA
+# Checksum: Ghl9qZBinlST4vO30wAMtA
+# Checksum:
 # Expires: 6h
-# Last Modified: Thu, 01 Sep 2011 20:40:50 +0800
+# Last Modified: Wed, 07 Sep 2011 20:00:35 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -2119,6 +2120,8 @@ itweet.net:80
 #--------------------------JJ--------------------------
 .*blog.jackjia.com*.:80
 :80/.*blog\.jackjia\.com
+.*williamlong.jaiku.com*.:80
+:80/.*williamlong\.jaiku\.com
 .*jeanyim.com*.:80
 :80/.*jeanyim\.com
 .jgoodies.com
