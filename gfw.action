@@ -1,8 +1,8 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: Ghl9qZBinlST4vO30wAMtA
+# Checksum: 44N6Kh0uvijgI1XtrgWhEA
 # Checksum:
 # Expires: 6h
-# Last Modified: Wed, 07 Sep 2011 20:00:35 +0800
+# Last Modified: Fri, 30 Sep 2011 16:34:48 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -213,6 +213,8 @@ antiwave.net:80
 .*.apigee.com*.:80
 :80/.*\.apigee\.com
 .apigee.com
+.*itunes.apple.*285688934*.:80
+:80/.*itunes\.apple\..*285688934
 .*itunes.apple.*358801284*.:80
 :80/.*itunes\.apple\..*358801284
 .*itunes.apple.*364147881*.:80
@@ -1912,6 +1914,7 @@ talkgadget.google.com:443/
 .overlapr.com
 .peerpong.com
 .pose.com
+.rubyinstaller.org
 .samsoff.es
 .sendoid.com
 .speckleapp.com

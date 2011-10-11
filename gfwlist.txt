@@ -1,8 +1,8 @@
 [AutoProxy 0.2.9]
-! Checksum: Ghl9qZBinlST4vO30wAMtA
+! Checksum: 44N6Kh0uvijgI1XtrgWhEA
 ! Checksum: 
 ! Expires: 6h
-! Last Modified: Wed, 07 Sep 2011 20:00:35 +0800
+! Last Modified: Fri, 30 Sep 2011 16:34:48 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -147,6 +147,7 @@ video.aol.com
 www.aolnews.com
 .apigee.com
 ||apigee.com
+itunes.apple.*285688934
 itunes.apple.*358801284
 itunes.apple.*364147881
 itunes.apple.*375584677
@@ -1364,6 +1365,7 @@ hellotxt.com
 ||overlapr.com
 ||peerpong.com
 ||pose.com
+||rubyinstaller.org
 ||samsoff.es
 ||sendoid.com
 ||speckleapp.com
