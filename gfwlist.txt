@@ -1,8 +1,8 @@
 [AutoProxy 0.2.9]
-! Checksum: 44N6Kh0uvijgI1XtrgWhEA
+! Checksum: QT9mezKy9DQkkPJ25JPz8w
 ! Checksum: 
 ! Expires: 6h
-! Last Modified: Fri, 30 Sep 2011 16:34:48 +0800
+! Last Modified: Wed, 09 Nov 2011 16:02:57 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -151,6 +151,7 @@ itunes.apple.*285688934
 itunes.apple.*358801284
 itunes.apple.*364147881
 itunes.apple.*375584677
+itunes.apple.*383949089
 
 ||appledaily.com.tw
 .archive.org
@@ -690,6 +691,7 @@ video.foxbusiness.com
 ||fofg.org
 .fooooo.com
 ||fooooo.com
+footwiball.com
 ||fourthinternational.org
 ||foxdie.us
 ||foxsub.com
@@ -731,7 +733,8 @@ friendfeed-media.com/e99a4ebe2fb4c1985c2a58775eb4422961aa5a2e
 ||frommel.net
 ||fscked.org
 .fsurf.com
-.ftchinese.com/story/001038220
+!-.ftchinese.com/story/001038220
+.ftchinese.com
 .fuckcnnic.net
 ||fuckcnnic.net
 fuckgfw.org
@@ -1305,6 +1308,7 @@ google.com*%E6%88%91%E6%B2%A1%E6%9C%89%E6%95%8C%E4%BA%BA
 |https://docs.google.com
 |https://groups.google.com
 |https://plus.google.com
+|https://plusone.google.com
 .google.com/moderator
 .google.com%2Fmoderator
 .google.com/reader/view/feed
@@ -2487,11 +2491,12 @@ bbs.tuitui.info
 
 
 !-------------Tumblr-----
-!--||www.tumblr.com
+||tumblr.com
 @@||assets.tumblr.com
 @@||data.tumblr.com
 @@||media.tumblr.com
 @@||static.tumblr.com
+@@||www.tumblr.com
 ||301works.org
 ||365singles.com.ar
 ||all-that-is-interesting.com
@@ -2954,18 +2959,19 @@ worldjournal.com
 !-||blog.wakoopa.com
 !-||wattsupwiththat.com
 !-||webmink.com
-caiting666.wordpress.com
-rfaunplugged.wordpress.com
-en.wordpress.com/tag
-zh-cn.wordpress.com
-zh-sg.wordpress.com
-zhenxiang.wordpress.com
-|https://*.wordpress.com
-!-||wordpress.com
+!-caiting666.wordpress.com
+!-rfaunplugged.wordpress.com
+!-en.wordpress.com/tag
+!-zh-cn.wordpress.com
+!-zh-sg.wordpress.com
+!-zhenxiang.wordpress.com
+!-|https://*.wordpress.com
+.wordpress.com
+||wordpress.com
 !-|http://wp.com/
-@@|http://wordpress.com
-@@|https://wordpress.com
-@@||files.wordpress.com
+!-@@|http://wordpress.com
+!-@@|https://wordpress.com
+!-@@||files.wordpress.com
 !-||android.wordpress.org
 !-||ios.wordpress.org
 !-||wormsculptor.com
@@ -3092,6 +3098,7 @@ topic.youthwant.com.tw
 youtu.be
 .youtube.com
 ||youtube.com
+.youtube-nocookie.com
 !--/^https?:\/\/[^\/]+youtube\.com/
 .youtube-nocookie.com
 .youtubecn.com
@@ -3263,6 +3270,7 @@ en.wikipedia.org/wiki/Tibetan_independence_movement
 
 !-------------zh.Wikipedia----------
 zh.wikipedia.org/wiki/Special:Contributions
+zh.wikipedia.org/wiki/Wikipedia:%E9%A0%81%E9%9D%A2%E5%AD%98%E5%BB%A2%E8%A8%8E%E8%AB%96
 zh.m.wikipedia.org
 zh.wikisource.org
 !--512 Da Di Zhen

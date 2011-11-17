@@ -1,8 +1,8 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: 44N6Kh0uvijgI1XtrgWhEA
+# Checksum: QT9mezKy9DQkkPJ25JPz8w
 # Checksum:
 # Expires: 6h
-# Last Modified: Fri, 30 Sep 2011 16:34:48 +0800
+# Last Modified: Wed, 09 Nov 2011 16:02:57 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -221,6 +221,8 @@ antiwave.net:80
 :80/.*itunes\.apple\..*364147881
 .*itunes.apple.*375584677*.:80
 :80/.*itunes\.apple\..*375584677
+.*itunes.apple.*383949089*.:80
+:80/.*itunes\.apple\..*383949089
 .appledaily.com.tw
 .*.archive.org*.:80
 :80/.*\.archive\.org
@@ -1040,6 +1042,8 @@ files2me.com:80
 .*.fooooo.com*.:80
 :80/.*\.fooooo\.com
 .fooooo.com
+.*footwiball.com*.:80
+:80/.*footwiball\.com
 .fourthinternational.org
 .foxdie.us
 .foxsub.com
@@ -1103,8 +1107,9 @@ ff.im:80
 .fscked.org
 .*.fsurf.com*.:80
 :80/.*\.fsurf\.com
-.*.ftchinese.com:80/story/001038220
-:80/.*\.ftchinese\.com/story/001038220
+#-.ftchinese.com/story/001038220
+.*.ftchinese.com*.:80
+:80/.*\.ftchinese\.com
 .*.fuckcnnic.net*.:80
 :80/.*\.fuckcnnic\.net
 .fuckcnnic.net
@@ -1832,6 +1837,7 @@ ub0.cc:80
 docs.google.com:443
 groups.google.com:443
 plus.google.com:443
+plusone.google.com:443
 .*.google.com:80/moderator
 :80/.*\.google\.com/moderator
 .*.google.com%2Fmoderator*.:80
@@ -3627,7 +3633,7 @@ turbobit.net:80
 .turningtorso.com
 .tuxtraining.com
 #-------------Tumblr-----
-#--||www.tumblr.com
+.tumblr.com
 .301works.org
 .365singles.com.ar
 .all-that-is-interesting.com
@@ -4236,21 +4242,20 @@ waiwaier.com:80
 #-||blog.wakoopa.com
 #-||wattsupwiththat.com
 #-||webmink.com
-.*caiting666.wordpress.com*.:80
-:80/.*caiting666\.wordpress\.com
-.*rfaunplugged.wordpress.com*.:80
-:80/.*rfaunplugged\.wordpress\.com
-.*en.wordpress.com:80/tag
-:80/.*en\.wordpress\.com/tag
-.*zh-cn.wordpress.com*.:80
-:80/.*zh-cn\.wordpress\.com
-.*zh-sg.wordpress.com*.:80
-:80/.*zh-sg\.wordpress\.com
-.*zhenxiang.wordpress.com*.:80
-:80/.*zhenxiang\.wordpress\.com
-.*.wordpress.com:443
-#-||wordpress.com
+#-caiting666.wordpress.com
+#-rfaunplugged.wordpress.com
+#-en.wordpress.com/tag
+#-zh-cn.wordpress.com
+#-zh-sg.wordpress.com
+#-zhenxiang.wordpress.com
+#-|https://*.wordpress.com
+.*.wordpress.com*.:80
+:80/.*\.wordpress\.com
+.wordpress.com
 #-|http://wp.com/
+#-@@|http://wordpress.com
+#-@@|https://wordpress.com
+#-@@||files.wordpress.com
 #-||android.wordpress.org
 #-||ios.wordpress.org
 #-||wormsculptor.com
@@ -4463,6 +4468,8 @@ youporn.com:80
 .*.youtube.com*.:80
 :80/.*\.youtube\.com
 .youtube.com
+.*.youtube-nocookie.com*.:80
+:80/.*\.youtube-nocookie\.com
 #--/^https?:\/\/[^\/]+youtube\.com/
 .*.youtube-nocookie.com*.:80
 :80/.*\.youtube-nocookie\.com
@@ -4728,6 +4735,8 @@ zaobao.com:80
 #-------------zh.Wikipedia----------
 .*zh.wikipedia.org:80/wiki/Special:Contributions
 :80/.*zh\.wikipedia\.org/wiki/Special:Contributions
+.*zh.wikipedia.org:80/wiki/Wikipedia:%E9%A0%81%E9%9D%A2%E5%AD%98%E5%BB%A2%E8%A8%8E%E8%AB%96
+:80/.*zh\.wikipedia\.org/wiki/Wikipedia:%E9%A0%81%E9%9D%A2%E5%AD%98%E5%BB%A2%E8%A8%8E%E8%AB%96
 .*zh.m.wikipedia.org*.:80
 :80/.*zh\.m\.wikipedia\.org
 .*zh.wikisource.org*.:80
@@ -5391,11 +5400,9 @@ zaobao.com:80
 .data.tumblr.com
 .media.tumblr.com
 .static.tumblr.com
+.www.tumblr.com
 .www.typepad.com
 .static.typepad.com
-wordpress.com:80
-wordpress.com:443
-.files.wordpress.com
 .tax.nat.gov.tw
 .moe.gov.tw
 .cwb.gov.tw
