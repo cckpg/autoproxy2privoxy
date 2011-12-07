@@ -1,8 +1,8 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: QT9mezKy9DQkkPJ25JPz8w
+# Checksum: 7jcw9l7uF6sS6oalXr3GBg
 # Checksum:
 # Expires: 6h
-# Last Modified: Wed, 09 Nov 2011 16:02:57 +0800
+# Last Modified: Sun, 20 Nov 2011 08:10:58 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -223,6 +223,8 @@ antiwave.net:80
 :80/.*itunes\.apple\..*375584677
 .*itunes.apple.*383949089*.:80
 :80/.*itunes\.apple\..*383949089
+.*itunes.apple.com*isunaffairs:80/id454439893
+:80/.*itunes\.apple\.com.*isunaffairs/id454439893
 .appledaily.com.tw
 .*.archive.org*.:80
 :80/.*\.archive\.org
