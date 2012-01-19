@@ -1,8 +1,8 @@
 [AutoProxy 0.2.9]
-! Checksum: 7jcw9l7uF6sS6oalXr3GBg
+! Checksum: krUrRtKglHSbgLqz950idg
 ! Checksum: 
 ! Expires: 6h
-! Last Modified: Sun, 20 Nov 2011 08:10:58 +0800
+! Last Modified: Thu, 19 Jan 2012 22:28:06 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -539,6 +539,7 @@ dongtaiwang.com
 ||dongtaiwang.net
 .dongyangjing.com
 .dontfilter.us
+||dontmovetochina.com
 .dotplane.com
 ||dotplane.com
 doubleaf.com
@@ -1004,7 +1005,7 @@ echofon.com
 !-||blog.kengao.tw
 !-||log.keso.cn
 !-||www.khanacademy.org
-!-||www.klip.me
+||www.klip.me
 !-||usbloadergx.koureio.net
 !-||blog.kowalczyk.info
 !-L
@@ -1173,6 +1174,7 @@ google*search*q=cache
 .google.com*%E8%BE%BE%E8%B5%96%E5%96%87%E5%98%9B
 !--Dai Li/Proxy
 *.google.com*%E4%BB%A3%E7%90%86
+.google.*facebook
 !--Fan Qiang
 .google.*%E7%BF%BB%E5%A2%99
 !--Gao Zhi Sheng
@@ -1241,6 +1243,7 @@ google.com*search*q*%E5%A4%A9%E5%AE%89%E9%97%A8
 .google.*q=%E5%A4%A9%E7%81%AD
 !--Tu Ni Si
 .google.*%E7%AA%81%E5%B0%BC%E6%96%AF
+.google.*twitter
 !--Wang Yang
 .google.com*search*%E6%B1%AA%E6%96%AF
 !--Wo Mei You Di Ren
@@ -1541,6 +1544,7 @@ t.jteet.com
 .junefourth-20.net
 ||junefourth-20.net
 .justin.tv
+justtristan.com
 ||jwmusic.org
 @@||music.jwmusic.org
 .jyxf.net
@@ -1854,6 +1858,7 @@ nobodycanstop.us
 ||nobodycanstop.us
 ||nokola.com
 ||noobbox.com
+nooidea.com
 ||novelasia.com
 .nownews.com/cybersex
 .nownews.com/box
@@ -2690,6 +2695,7 @@ twitreferral.com
 
 199.59.148.20
 |http://t.co/
+|https://t.co/
 |http://twt.tl
 .twitter.com
 ||twitter.com

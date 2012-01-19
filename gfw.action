@@ -1,8 +1,8 @@
 {+forward-override{forward-socks5 127.0.0.1:7127 .}}
-# Checksum: 7jcw9l7uF6sS6oalXr3GBg
+# Checksum: krUrRtKglHSbgLqz950idg
 # Checksum:
 # Expires: 6h
-# Last Modified: Sun, 20 Nov 2011 08:10:58 +0800
+# Last Modified: Thu, 19 Jan 2012 22:28:06 +0800
 #     ----http://autoproxy-gfwlist.googlecode.com/
 #--------------------Num----------------------------
 .*.0rz.tw*.:80
@@ -804,6 +804,7 @@ news.chinatimes.com:80
 :80/.*\.dongyangjing\.com
 .*.dontfilter.us*.:80
 :80/.*\.dontfilter\.us
+.dontmovetochina.com
 .*.dotplane.com*.:80
 :80/.*\.dotplane\.com
 .dotplane.com
@@ -1447,7 +1448,7 @@ gaopi.net:80
 #-||blog.kengao.tw
 #-||log.keso.cn
 #-||www.khanacademy.org
-#-||www.klip.me
+.www.klip.me
 #-||usbloadergx.koureio.net
 #-||blog.kowalczyk.info
 #-L
@@ -1635,6 +1636,8 @@ ub0.cc:80
 #--Dai Li/Proxy
 .**.google.com*%E4%BB%A3%E7%90%86*.:80
 :80/.*.*\.google\.com.*%E4%BB%A3%E7%90%86
+.*.google.*facebook*.:80
+:80/.*\.google\..*facebook
 #--Fan Qiang
 .*.google.*%E7%BF%BB%E5%A2%99*.:80
 :80/.*\.google\..*%E7%BF%BB%E5%A2%99
@@ -1737,6 +1740,8 @@ ub0.cc:80
 #--Tu Ni Si
 .*.google.*%E7%AA%81%E5%B0%BC%E6%96%AF*.:80
 :80/.*\.google\..*%E7%AA%81%E5%B0%BC%E6%96%AF
+.*.google.*twitter*.:80
+:80/.*\.google\..*twitter
 #--Wang Yang
 .*.google.com*search*%E6%B1%AA%E6%96%AF*.:80
 :80/.*\.google\.com.*search.*%E6%B1%AA%E6%96%AF
@@ -2171,6 +2176,8 @@ jimoparty.com:80
 .junefourth-20.net
 .*.justin.tv*.:80
 :80/.*\.justin\.tv
+.*justtristan.com*.:80
+:80/.*justtristan\.com
 .jwmusic.org
 .*.jyxf.net*.:80
 :80/.*\.jyxf\.net
@@ -2657,6 +2664,8 @@ nobelprize.org:80
 .nobodycanstop.us
 .nokola.com
 .noobbox.com
+.*nooidea.com*.:80
+:80/.*nooidea\.com
 .novelasia.com
 .*.nownews.com:80/cybersex
 :80/.*\.nownews\.com/cybersex
@@ -3866,6 +3875,7 @@ tl.gd:80/
 .*199.59.148.20*.:80
 :80/.*199\.59\.148\.20
 t.co:80/
+t.co:443/
 twt.tl:80
 .*.twitter.com*.:80
 :80/.*\.twitter\.com
