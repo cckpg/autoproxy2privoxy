@@ -1,8 +1,8 @@
 [AutoProxy 0.2.9]
-! Checksum: krUrRtKglHSbgLqz950idg
+! Checksum: oqEUWmQs1p6JcE0b4+LMYA
 ! Checksum: 
 ! Expires: 6h
-! Last Modified: Thu, 19 Jan 2012 22:28:06 +0800
+! Last Modified: Thu, 23 Feb 2012 21:21:16 +0800
 !     ----http://autoproxy-gfwlist.googlecode.com/
 
 !--------------------Num----------------------------
@@ -621,6 +621,7 @@ eyny.com
 ||facebook.com
 /^https?:\/\/[^\/]+facebook\.com/
 @@||*v6.facebook.com
+||connect.facebook.net
 .fakku.net
 ||fbcdn.net
 fanqiangyakexi.net
@@ -1152,7 +1153,7 @@ wozy.in
 /search%3Fq%3Dcache
 %2Fsearch%3Fq%3Dcache
 google*search*q=cache
-.google.*301
+!-.google.*301
 .google.*search*8964
 .google.*gfw
 .google.*great*firewall
@@ -1193,8 +1194,6 @@ google*search*q=cache
 .google.*%E8%AE%B0%E8%80%85%E6%97%A0%E7%96%86%E7%95%8C
 !--Jia bao
 .google.*%E5%AE%B6%E5%AE%9D
-!--Jiang Ze Min
-.google.*search*%E6%B1%9F%E6%B3%BD%E6%B0%91
 !--Jin Tao
 .google.*/search*%E9%94%A6%E6%B6%9B
 !--Jin Ping
@@ -1260,9 +1259,6 @@ google.com*%E6%88%91%E6%B2%A1%E6%9C%89%E6%95%8C%E4%BA%BA
 .google.*%E9%98%85%E5%90%8E%E5%8D%B3%E7%84%9A
 !--Ze Min
 .google.*%E6%B3%BD%E6%B0%91
-!--Zeng Cheng
-!--Zhang De Jiang
-.google.*search*%E5%BC%A0%E5%BE%B7%E6%B1%9F
 !--Zhen Li Bu
 .google.*%E7%9C%9F%E7%90%86%E9%83%A8
 !--Zhen Xiang
@@ -2125,7 +2121,6 @@ ranyunfei.com
 ||ranyunfei.com
 .rapidshare.com
 |http://rapidshare.com
-.rapidshare.com/
 .rapidshare1.com
 ||rapidshare8.com
 .rapidsharedata.com
@@ -2401,12 +2396,14 @@ telecomspace.com
 ||theatrum-belli.com
 theblemish.com
 ||thebcomplex.com
+.thechinabeat.org
 ||thedieline.com
 ||thedw.us
 ||thegatesnotes.com
 ||thelifeyoucansave.com
 ||thelius.org
 thepiratebay.org
+||thepiratebay.se
 theqii.info/blog
 ||thesartorialist.com
 thespeeder.com
@@ -2694,8 +2691,8 @@ twitreferral.com
 ||twitvid.com
 
 199.59.148.20
-|http://t.co/
-|https://t.co/
+|http://t.co
+|https://t.co
 |http://twt.tl
 .twitter.com
 ||twitter.com
@@ -2788,6 +2785,7 @@ tor.updatestar.com
 .uploaded.to/file
 |http://uploaded.to/file
 .uploadstation.com/file
+www.urbanoutfitters.com
 myshare.url.com.tw/
 ||urlborg.com
 ||urlparser.com
@@ -3106,7 +3104,6 @@ topic.youthwant.com.tw
 youtu.be
 .youtube.com
 ||youtube.com
-.youtube-nocookie.com
 !--/^https?:\/\/[^\/]+youtube\.com/
 .youtube-nocookie.com
 .youtubecn.com
@@ -3391,7 +3388,6 @@ zh.wikipedia.org*%E8%83%A1%E6%B8%A9%E4%BD%93%E5%88%B6
 !--Hu Yao Bang
 zh.wikipedia.org*%E8%83%A1%E8%80%80%E9%82%A6
 !--Hua Guo Feng (zh-hans/hant)
-zh.wikipedia.org*%E5%8D%8E%E5%9B%BD%E9%94%8B
 zh.wikipedia.org*%E5%8D%8E%E5%9B%BD%E9%94%8B
 zh.wikipedia.org*%E8%8F%AF%E5%9C%8B%E9%8B%92
 !--Hua Xia Wen Zhai
