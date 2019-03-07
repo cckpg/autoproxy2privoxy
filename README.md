@@ -27,19 +27,11 @@ ladies and gentlemen, I present you AutoProxy2Privoxy!
 How to Build
 ------------
 
-AutoProxy2Privoxy is a BASH script and needs not be built. This section talks
-about how to build the Privoxy forward rules from an AutoProxy ruleset.
+GNU Gawk is required for the conversion script.
 
-The following example assumes a Linux environment. Also the famous gfwlist is
-used as the autoproxy ruleset input in the example below.
+The following will download the newest GFWList and generate `gfwlist.action`:
 
-    gfwlist=https://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt
-    wget -qO- "${gfwlist}" | base64 -d > gfwlist.txt
-    export PROXY_ADDR=127.0.0.1:7127 PROXY_TYPE=SOCKS5
-    chmod +x autoproxy2privoxy
-    ./autoproxy2privoxy gfwlist.txt > gfw.action
-
-Behold, this last command runs for a while.
+    make -B proxy=socks5://127.0.0.1:9050
 
 How to Use
 ----------
@@ -48,19 +40,17 @@ Privoxy supports all major operating systems.  Installation paths may vary from
 platform to platform. The following assumes a Linux environment.
 
 First, make sure the address and type of the target proxy is set correctly in
-[gfw.action](https://github.com/cckpg/autoproxy2privoxy/raw/master/gfw.action):
+[gfwlist.action](https://github.com/cckpg/autoproxy2privoxy/raw/master/gfwlist.action):
 
-    {+forward-override{forward-socks5 127.0.0.1:7127 .}}
+    {+forward-override{forward-socks5 127.0.0.1:9050 .}}
 
 Then issue the following commands as root:
 
-    cp gfw.action /etc/privoxy/
-    chown privoxy:privoxy /etc/privoxy/gfw.action
-    chmod 660 /etc/privoxy/gfw.action
+    cp gfwlist.action /etc/privoxy/
 
 Now edit `/etc/privoxy/config`, adding this line:
 
-    actionsfile gfw.action
+    actionsfile gfwlist.action
 
 Finally, make sure that forward rules are not set in `/etc/privoxy/config`,
 which is the default, unless you know what you're doing.
@@ -72,10 +62,7 @@ whether to forward to SOCKS or not.
 License
 -------
 
-This program is in the public domain, looking for a trade for a more robust
-implementation.
-
-Fork the idea, guys.
+This program is in the public domain.
 
 Links
 -----
